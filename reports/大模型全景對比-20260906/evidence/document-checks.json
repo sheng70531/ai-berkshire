@@ -1,0 +1,54 @@
+{
+  "report_files": [
+    {
+      "name": "01-全球旗艦模型對比報告.md",
+      "sha256": "338b8ec735e75ae45f07730e340c1ec57e90a7d51e02fdb134915b17f4907965",
+      "characters": 14148,
+      "table_rows_including_headers_by_section": {
+        "範圍與判斷方法": 5,
+        "國際前沿旗艦：能力上限與主力產品": 7,
+        "中國主流旗艦：能力、部署與開放的分化": 13,
+        "歐洲、韓國與企業開放生態": 6,
+        "到底誰更強：保留可比條件，才能讀懂分數": 5,
+        "API 成本：先統一單位，再談性價比": 8,
+        "開放許可最容易踩錯的地方": 7,
+        "如何按場景選": 7
+      }
+    },
+    {
+      "name": "02-千億參數模型報告.md",
+      "sha256": "5e88d817338888a681b452c9cd8da55f364e63eb26b00cfc95ff5d5b17dd5013",
+      "characters": 15465,
+      "table_rows_including_headers_by_section": {
+        "計數規則：先把 B、T 和激活參數分開": 7,
+        "當代萬億級模型": 8,
+        "500B 至 999B：大型集群部署區間": 10,
+        "200B 至 499B：開放大模型最密集的區間": 26,
+        "100B 至 199B：相對可接近的千億級部署": 14,
+        "已披露規模，但不能當作可下載的當前旗艦": 9,
+        "這些旗艦的參數不能編": 8,
+        "開源到底怎麼看：權重許可速查": 6,
+        "千億模型究竟需要多大內存": 14
+      }
+    },
+    {
+      "name": "03-核查記錄.md",
+      "sha256": "156217d59f6c4cab6fa4f235dbcee14b61f2f5e38bfaacdbc5ba2ac13c694813",
+      "characters": 3317,
+      "table_rows_including_headers_by_section": {
+        "來源與版本": 9
+      }
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "flagship_manufacturers": 23,
+    "main_parameter_entries": 54,
+    "additional_parameter_disclosed_entries": 8,
+    "saved_model_cards": 57,
+    "saved_license_files": 34,
+    "metadata_snapshots": 10
+  },
+  "arithmetic": "44 independent Decimal checks; all 39 storage cells matched.",
+  "passed": true
+}

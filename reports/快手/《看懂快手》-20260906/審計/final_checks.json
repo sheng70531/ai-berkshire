@@ -1,0 +1,23 @@
+{
+  "broken_relative_links": [],
+  "article_counts": [
+    {
+      "file": "02-可靈值多少錢先問誰付成本.md",
+      "characters": 11665,
+      "chinese_characters": 8330
+    },
+    {
+      "file": "03-便宜的市盈率與昂貴的再投資.md",
+      "characters": 15551,
+      "chinese_characters": 8724
+    },
+    {
+      "file": "01-四億日活之後快手究竟賣什麼.md",
+      "characters": 11171,
+      "chinese_characters": 8174
+    }
+  ],
+  "financial_commands": 91,
+  "financial_command_failures": 0,
+  "note": "抽樣覆蓋邊界另見coverage.json；非所有陳述完整雙源審計。"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "label": "開放平臺及其他企業服務收入佔比 · 2026年上半年",
+    "reported_value": 63.4,
+    "unit": "%",
+    "raw_text": "| 開放平臺及其他企業服務收入佔比 | 63.4% | 包含付費個人用戶、企業用戶及Token Plan，不能全部等同於大型企業合同收入 |",
+    "line_number": 15,
+    "fetched_value": 63.4,
+    "fetched_source": "https://file.cdn.minimax.io/public/586c7995-cab1-41b5-9178-c06685b32c88.pdf",
+    "fetched_value2": 63.4,
+    "fetched_source2": "https://www.investing.com/news/stock-market-news/chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-as-ai-demand-surges-4876820"
+  },
+  {
+    "id": 2,
+    "label": "中國內地以外收入佔比 · 2026年上半年",
+    "reported_value": 60.8,
+    "unit": "%",
+    "raw_text": "| 中國內地以外收入佔比 | 60.8% | 已有全球商業化，但地域覆蓋不自動代表強品牌或高留存 |",
+    "line_number": 16,
+    "fetched_value": 60.8,
+    "fetched_source": "https://file.cdn.minimax.io/public/586c7995-cab1-41b5-9178-c06685b32c88.pdf",
+    "fetched_value2": 60.8,
+    "fetched_source2": "https://www-web.itiger.com/news/1169167557"
+  },
+  {
+    "id": 3,
+    "label": "綜合毛利率 · 2026年上半年",
+    "reported_value": 17.9,
+    "unit": "%",
+    "raw_text": "| 綜合毛利率 | 17.9% | 集團口徑，不能直接用來判斷某一個模型的盈利水平 |",
+    "line_number": 17,
+    "fetched_value": 17.9,
+    "fetched_source": "https://file.cdn.minimax.io/public/586c7995-cab1-41b5-9178-c06685b32c88.pdf",
+    "fetched_value2": 17.9,
+    "fetched_source2": "https://www-web.itiger.com/news/1169167557"
+  },
+  {
+    "id": 4,
+    "label": "總收入同比增速 · 2026年上半年",
+    "reported_value": 283.1,
+    "unit": "%",
+    "raw_text": "| 總收入同比增速 | +283.1% | 增長很快，仍需結合基數及收入結構變化解釋 |",
+    "line_number": 18,
+    "fetched_value": 283.1,
+    "fetched_source": "https://file.cdn.minimax.io/public/586c7995-cab1-41b5-9178-c06685b32c88.pdf",
+    "fetched_value2": 283.1,
+    "fetched_source2": "https://www.investing.com/news/stock-market-news/chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-as-ai-demand-surges-4876820"
+  },
+  {
+    "id": 5,
+    "label": "銷售及分銷費用同比變化 · 2026年上半年",
+    "reported_value": -17.9,
+    "unit": "%",
+    "raw_text": "| 銷售及分銷費用同比變化 | -17.9% | 增長對新增推廣費用的依賴有所降低，不等於每個應用都有強自然增長 |",
+    "line_number": 19,
+    "fetched_value": -17.9,
+    "fetched_source": "https://file.cdn.minimax.io/public/586c7995-cab1-41b5-9178-c06685b32c88.pdf",
+    "fetched_value2": -17.9,
+    "fetched_source2": "https://www-web.itiger.com/news/1169167557"
+  }
+]

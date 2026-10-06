@@ -1,0 +1,69 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：五年回報與資金配置-假設與算術
+======================================================================
+
+  [92m✅ 通過[0m [ 7] 拼多多 · 保守年化                           報告:       -13.90 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: -13.88 (偏差 0.18%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: -13.88 (偏差 0.18%)
+  [92m✅ 通過[0m [ 9] 拼多多 · 樂觀年化                           報告:        24.50 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 24.51 (偏差 0.04%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 24.51 (偏差 0.04%)
+  [92m✅ 通過[0m [ 8] 拼多多 · 基準年化                           報告:        10.10 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 10.06 (偏差 0.44%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 10.06 (偏差 0.44%)
+  [92m✅ 通過[0m [23] 泡泡瑪特 · 樂觀年化                          報告:        29.90 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 29.92 (偏差 0.07%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 29.92 (偏差 0.07%)
+  [92m✅ 通過[0m [27] 美團 · 樂觀年化                            報告:        20.40 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 20.42 (偏差 0.10%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 20.42 (偏差 0.10%)
+  [92m✅ 通過[0m [29] MiniMax · 保守年化                       報告:       -50.80 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: -50.77 (偏差 0.07%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: -50.77 (偏差 0.07%)
+  [92m✅ 通過[0m [36] 騰訊 · 2031股數，億股/億ADS                  報告:        87.49 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 87.49 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 87.49 (偏差 0.00%)
+  [92m✅ 通過[0m [51] 阿里巴巴 · 五年累計股息，報價幣                    報告:         5.00 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 5.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 5.00 (偏差 0.00%)
+  [92m✅ 通過[0m [56] 泡泡瑪特 · 五年累計股息，報價幣                    報告:        13.58 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 13.58 (偏差 0.01%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 13.58 (偏差 0.01%)
+  [92m✅ 通過[0m [57] 泡泡瑪特 · 終點每股價值，報價幣                    報告:       202.23 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 202.23 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 202.23 (偏差 0.00%)
+  [92m✅ 通過[0m [58] 美團 · 2031歸母利潤，人民幣億元                  報告:       238.40 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 238.40 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 238.40 (偏差 0.00%)
+  [92m✅ 通過[0m [60] 美團 · 2031股數，億股/億ADS                  報告:        63.31 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 63.31 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 63.31 (偏差 0.00%)
+  [92m✅ 通過[0m [63] MiniMax · 退出估值                       報告:        50.00 億美元
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 50.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 50.00 (偏差 0.00%)
+  [92m✅ 通過[0m [71] 三隻股票均落入樂觀情景 · 五年等效年化                 報告:        18.50 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 18.49 (偏差 0.04%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 18.49 (偏差 0.04%)
+  [92m✅ 通過[0m [109] 拼多多/基準 · 退出倍數                        報告:        12.00 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 12.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 12.00 (偏差 0.00%)
+  [92m✅ 通過[0m [108] 拼多多/基準 · 2031利潤                      報告:      1166.32 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 1166.32 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 1166.32 (偏差 0.00%)
+  [92m✅ 通過[0m [130] 快手/樂觀 · 2031利潤                       報告:       288.50 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 288.50 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 288.50 (偏差 0.00%)
+  [92m✅ 通過[0m [140] 阿里巴巴/保守 · 終點價格                       報告:        24.71 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 24.71 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 24.71 (偏差 0.00%)
+  [92m✅ 通過[0m [144] 阿里巴巴/基準 · 2031股數                     報告:       210.00 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 210.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 210.00 (偏差 0.00%)
+  [92m✅ 通過[0m [152] 阿里巴巴/樂觀 · 終點價格                       報告:       380.84 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 380.84 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 380.84 (偏差 0.00%)
+  [92m✅ 通過[0m [155] 泡泡瑪特/保守 · 退出倍數                       報告:        10.00 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 10.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 10.00 (偏差 0.00%)
+  [92m✅ 通過[0m [164] 泡泡瑪特/基準 · 終點價格                       報告:       202.23 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 202.23 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 202.23 (偏差 0.00%)
+  [92m✅ 通過[0m [167] 泡泡瑪特/樂觀 · 退出倍數                       報告:        22.00 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 22.00 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 22.00 (偏差 0.00%)
+  [92m✅ 通過[0m [174] 美團/保守 · 2031股數                       報告:        66.53 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 66.53 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 66.53 (偏差 0.00%)
+  [92m✅ 通過[0m [190] MiniMax/保守 · 終點價格                    報告:        10.45 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 10.45 (偏差 0.04%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 10.45 (偏差 0.04%)
+  [92m✅ 通過[0m [189] MiniMax/保守 · 2031股數                  報告:         7.50 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 7.50 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 7.50 (偏差 0.00%)
+  [92m✅ 通過[0m [191] MiniMax/保守 · 年化                      報告:       -50.80 %
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: -50.77 (偏差 0.07%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: -50.77 (偏差 0.07%)
+  [92m✅ 通過[0m [199] MiniMax/樂觀 · 2031股數                  報告:         4.50 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 4.50 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 4.50 (偏差 0.00%)
+  [92m✅ 通過[0m [200] MiniMax/樂觀 · 終點價格                    報告:       784.05 
+                                                    統一模型.json: 48-digit Decimal formula/declared model assumption; NOT historical evidence: 784.05 (偏差 0.00%)  |  統一計算核驗.json: financial_rigor formula agreement or input transcription; NOT independent evidence of future outcome: 784.05 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 29  |  通過: [92m29[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================

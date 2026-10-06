@@ -1,0 +1,28 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：中美基模公司終局與MiniMax差異化研究報告-20260906.md
+======================================================================
+
+  ✅ 通過 [ 1] 2026H1總收入                            報告:       116.57 百萬美元
+                                                    https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160: 116.57 (偏差 0.00%)  |  https://www.investing.com/news/stock-market-news/chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-as-ai-demand-surges-4876820: 116.60 (偏差 0.02%)
+  ✅ 通過 [ 2] 2026H1開放平臺及其他企業服務收入佔比                報告:        63.40 %
+                                                    https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160: 63.40 (偏差 0.00%)  |  https://www.investing.com/news/stock-market-news/chinas-minimax-sees-revenue-nearly-quadruple-in-first-half-as-ai-demand-surges-4876820: 63.40 (偏差 0.00%)
+  ✅ 通過 [ 3] 2026H1集團毛利率                          報告:        17.90 %
+                                                    https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160: 17.90 (偏差 0.00%)  |  https://hk.ibtimes.com/minimax-revenue-surges-283-percent-strategic-losses-1812433: 17.90 (偏差 0.00%)
+  ✅ 通過 [ 4] 2026H1研發費用                           報告:       296.87 百萬美元
+                                                    https://www.minimax.io/news/minimax-announces-first-half-2026-financial-results-1787744160: 296.87 (偏差 0.00%)  |  https://hk.ibtimes.com/minimax-revenue-surges-283-percent-strategic-losses-1812433: 296.90 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽檢總數: 4  |  通過: 4  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 4,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 4,
+  "fail_items": [],
+  "warn_items": []
+}

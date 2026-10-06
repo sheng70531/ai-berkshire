@@ -1,0 +1,71 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/騰訊與快手-看懂公司-20260906/騰訊與快手對比研究-20260906.md
+總提取數據點：22  |  抽樣比例：15%  |  抽檢數量：4
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  1     13  收盤價（港元） · 騰訊 00700                         442.80  
+  4     14  已發行股數（股） · 快手 01024                  4326961215.00  
+  9     17  截至中期的 TTM 歸母淨利潤（億元） · 騰訊 00700            2355.08  
+ 21    204  要求更厚價格保護 · 快手                               25.00  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 1,
+    "label": "收盤價（港元） · 騰訊 00700",
+    "reported_value": 442.8,
+    "unit": "",
+    "line_number": 13,
+    "raw_text": "| 收盤價（港元） | 442.80 | 33.66 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 4,
+    "label": "已發行股數（股） · 快手 01024",
+    "reported_value": 4326961215.0,
+    "unit": "",
+    "line_number": 14,
+    "raw_text": "| 已發行股數（股） | 9,103,153,877 | 4,326,961,215 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 9,
+    "label": "截至中期的 TTM 歸母淨利潤（億元） · 騰訊 00700",
+    "reported_value": 2355.08,
+    "unit": "",
+    "line_number": 17,
+    "raw_text": "| 截至中期的 TTM 歸母淨利潤（億元） | 2,355.08 | 157.66 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 21,
+    "label": "要求更厚價格保護 · 快手",
+    "reported_value": 25.0,
+    "unit": "",
+    "line_number": 204,
+    "raw_text": "| 要求更厚價格保護 | 若按騰訊 9%參數基準再留 20%—25%折讓，對應約 330—352 港元 | 約 25 港元以下的吸引力增強，約相當於 12%參數基準現值再留四分之一折讓；仍不是保守情景下的本金保護 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

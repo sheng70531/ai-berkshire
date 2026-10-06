@@ -1,0 +1,17 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：/Users/linxuan/ai-berkshire/reports/七公司商業質量與十年利潤-20260906/七公司對比研究報告-20260906.md
+======================================================================
+
+  [92m✅ 通過[0m [ 2] 騰訊 · 最新一期歸母淨利潤                       報告:      1141.15
+                                                    HKEX https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf: 1141.15 (偏差 0.00%)  |  S&P Capital IQ https://www.marketscreener.com/news/tencent-holdings-limited-reports-earnings-results-for-the-second-quarter-and-six-months-ended-june-3-ce7859d8db80f42d: 1141.15 (偏差 0.00%)
+  [92m✅ 通過[0m [ 5] 阿里巴巴 · 最近完整年度歸母淨利潤                   報告:      1059.04
+                                                    HKEX https://www.hkexnews.hk/listedco/listconews/sehk/2026/0618/2026061800844.pdf: 1059.04 (偏差 0.00%)  |  https://stockanalysis.com/stocks/baba/financials/: 1059.04 (偏差 0.00%)
+  [92m✅ 通過[0m [ 8] 美團 · 最新一期歸母淨利潤                       報告:       -46.72
+                                                    HKEX https://www.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082800436_c.pdf: -46.72 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽檢總數: 3  |  通過: [92m3[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================

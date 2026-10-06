@@ -1,0 +1,67 @@
+[
+  {
+    "id": 58,
+    "label": "抖音、字節 · 截止日已核實情況",
+    "reported_value": 2.5,
+    "unit": "",
+    "line_number": 106,
+    "raw_text": "| 抖音、字節 | Seedance2.5於2026-07-31發佈並進入即夢、豆包Pro，具備更長敘事與編輯能力。[S8] | 創作工具、內容分發、廣告與交易能力可互相支持；快手需守住差異化社區、商家真實ROI | 高 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "reason": "Seedance version, not a financial quantity"
+  },
+  {
+    "id": 60,
+    "label": "Google · 截止日已核實情況",
+    "reported_value": 3.1,
+    "unit": "",
+    "line_number": 108,
+    "raw_text": "| Google | Veo3.1 Lite提供低價層級；Omni進入Gemini、Flow等產品。[S10,S11] | 雲、訂閱、創作與分發組合可壓低獨立工具付費意願 | 高 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "reason": "Veo version, not a financial quantity"
+  },
+  {
+    "id": 63,
+    "label": "開源及雲部署 · 截止日已核實情況",
+    "reported_value": 2.2,
+    "unit": "",
+    "line_number": 111,
+    "raw_text": "| 開源及雲部署 | Wan2.2官方倉庫提供開放權重及許可。[S14] | 大客戶有自建替代，限制基礎功能定價；不意味著質量等同最新可靈 | 中 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "reason": "Wan version, not a financial quantity"
+  },
+  {
+    "id": 227,
+    "label": "激進、可承受業績反覆 · 研究建議與條件區間（港元）",
+    "reported_value": 28.0,
+    "unit": "",
+    "line_number": 308,
+    "raw_text": "| 激進、可承受業績反覆 | 約28—32可考慮分批研究性參與；條件是可靈收入和成本路徑沒有繼續惡化 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "reason": "Subjective conditional price range; not observed fact"
+  },
+  {
+    "id": 228,
+    "label": "穩健 · 研究建議與條件區間（港元）",
+    "reported_value": 23.0,
+    "unit": "",
+    "line_number": 309,
+    "raw_text": "| 穩健 | 約23—28且核心盈利企穩、資本開支後現金流改善時再評估；對應基準約四至五成折扣，不代表下跌底部 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "reason": "Subjective conditional price range; not observed fact"
+  }
+]

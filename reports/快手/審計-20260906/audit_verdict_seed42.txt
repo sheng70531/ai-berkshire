@@ -1,0 +1,54 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：reports/快手/快手研究報告-20260906.md
+======================================================================
+
+  [92m✅ 通過[0m [ 4] 估值參考匯率（人民幣/港元） · 數值                  報告:         0.86 
+                                                    https://hzf.mofcom.gov.cn/article/zyfw/jrfw/jrfwywzn/jrfwwh/hlfxglzy/202609/7872.html: 0.86 (偏差 0.00%)  |  https://english.news.cn/20260904/790d1ee7b6864f7b96752579a210e783/c.html: 0.86 (偏差 0.00%)
+  [92m✅ 通過[0m [ 5] TTM歸母淨利潤 · 數值                        報告:       157.66 
+                                                    官方年度+本年半年−上年半年，Decimal復算: 157.66 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/: 157.66 (偏差 0.00%)
+  [92m✅ 通過[0m [15] 毛利 · 2024                            報告:       692.92 
+                                                    annual2025.pdf：五年財務概要（已下載官方原件）: 692.92 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/: 692.92 (偏差 0.00%)
+  [92m✅ 通過[0m [14] 毛利 · 2023                            報告:       573.91 
+                                                    annual2025.pdf：五年財務概要（已下載官方原件）: 573.91 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/: 573.91 (偏差 0.00%)
+  [92m✅ 通過[0m [12] 毛利 · 2021                            報告:       340.30 
+                                                    annual2025.pdf：五年財務概要（已下載官方原件）: 340.30 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/: 340.30 (偏差 0.00%)
+  [92m✅ 通過[0m [18] 歸母淨利潤 · 2022                         報告:      -136.90 
+                                                    annual2025.pdf：五年財務概要（已下載官方原件）: -136.90 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/: -136.90 (偏差 0.00%)
+  [92m✅ 通過[0m [29] 資本支出 · 2023                          報告:        48.97 
+                                                    https://stockanalysis.com/quote/hkg/1024/financials/: 48.97 (偏差 0.00%)  |  https://www.stockopedia.com/share-prices/kuaishou-technology-HKG%3A1024/cashflow/: 48.97 (偏差 0.00%)
+  [92m✅ 通過[0m [28] 資本支出 · 2022                          報告:        51.00 
+                                                    https://stockanalysis.com/quote/hkg/1024/financials/: 51.00 (偏差 0.00%)  |  https://www.stockopedia.com/share-prices/kuaishou-technology-HKG%3A1024/cashflow/: 51.00 (偏差 0.00%)
+  [92m✅ 通過[0m [30] 資本支出 · 2024                          報告:        80.63 
+                                                    https://stockanalysis.com/quote/hkg/1024/financials/: 80.63 (偏差 0.00%)  |  https://www.stockopedia.com/share-prices/kuaishou-technology-HKG%3A1024/cashflow/: 80.63 (偏差 0.00%)
+  [92m✅ 通過[0m [36] 現金及短期投資 · 2025                       報告:       622.56 
+                                                    https://stockanalysis.com/quote/hkg/1024/financials/balance-sheet/: 622.56 (偏差 0.00%)  |  https://www.stockopedia.com/share-prices/kuaishou-technology-HKG%3A1024/balance-sheet/: 621.43 (偏差 0.18%)
+  [92m✅ 通過[0m [32] 現金及短期投資 · 2021                       報告:       454.57 
+                                                    https://stockanalysis.com/quote/hkg/1024/financials/balance-sheet/: 454.57 (偏差 0.00%)  |  https://www.stockopedia.com/share-prices/kuaishou-technology-HKG%3A1024/balance-sheet/: 452.80 (偏差 0.39%)
+  [92m✅ 通過[0m [55] 流動公允價值損益金融資產 · 億元                    報告:       563.53 
+                                                    h12026.pdf資產負債表: 563.53 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/financials/balance-sheet/ Trading Asset Securities: 563.53 (偏差 0.00%)
+  [92m✅ 通過[0m [70] 傳統稅後經營收益 · 樂觀                        報告:       192.73 
+                                                    獨立Decimal按顯式公式重算（計算，非外部事實）: 192.73 (偏差 0.00%)  |  financial_rigor calc：1606.0889250000002*.12: 192.73 (偏差 0.00%)
+  [92m✅ 通過[0m [76] 可靈收入 · 樂觀                            報告:       160.00 
+                                                    已披露主觀假設一致性檢查：model_inputs.scenarios[2][4]: 160.00 (偏差 0.00%)
+  [92m✅ 通過[0m [82] 快手可靈權益 · 樂觀                          報告:        55.00 %
+                                                    已披露主觀假設一致性檢查：model_inputs.scenarios[2][6] ×100: 55.00 (偏差 0.00%)
+  [92m✅ 通過[0m [87] 三年傳統股東現金流 · 基準                       報告:       300.00 
+                                                    已披露主觀假設一致性檢查：model_inputs.scenarios[1][7]: 300.00 (偏差 0.00%)
+  [92m✅ 通過[0m [95] 三年末目標價（港元） · 悲觀                      報告:        20.95 
+                                                    獨立Decimal按顯式公式重算（計算，非外部事實）: 20.95 (偏差 0.02%)  |  financial_rigor calc：(624.0+65.0+94.90797523641173)/43.26961215/0.86458: 20.95 (偏差 0.02%)
+
+----------------------------------------------------------------------
+  抽檢總數: 17  |  通過: [92m17[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 17,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 17,
+  "fail_items": [],
+  "warn_items": []
+}

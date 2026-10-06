@@ -1,0 +1,37 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：美團-investment-team-AI利潤-20260925.md [assumption_or_model_arithmetic]
+======================================================================
+
+  ✅ 通過 [51] 客服、研發和運營節約 · 2027                    報告:         7.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 7.00 (偏差 0.00%)
+  ✅ 通過 [58] 履約新增淨節約 · 2036                       報告:       140.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 140.00 (偏差 0.00%)
+  ✅ 通過 [56] 履約新增淨節約 · 2028                       報告:        10.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 10.00 (偏差 0.00%)
+  ✅ 通過 [57] 履約新增淨節約 · 2029                       報告:        18.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 18.00 (偏差 0.00%)
+  ✅ 通過 [60] 額外AI研發、推理、設備折舊 · 2028                報告:       -35.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: -35.00 (偏差 0.00%)
+  ✅ 通過 [63] 入口分流、渠道費用與額外讓利 · 2027                報告:        -7.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: -7.00 (偏差 0.00%)
+  ✅ 通過 [71] 正常化稅後AI淨增量 · 2027                    報告:        -8.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: -8.00 (偏差 0.00%)
+  ✅ 通過 [72] 正常化稅後AI淨增量 · 2028                    報告:         4.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 4.00 (偏差 0.00%)
+  ✅ 通過 [109] 基準 · 2029利潤                          報告:       252.17
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 252.17 (偏差 0.00%)
+  ✅ 通過 [108] 基準 · 2028利潤                          報告:       151.75
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 151.75 (偏差 0.00%)
+  ✅ 通過 [115] 樂觀 · AI在2029年貢獻                      報告:        52.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 52.00 (偏差 0.00%)
+  ✅ 通過 [130] 總部經常成本（含SBC） · 基準                    報告:      -170.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: -170.00 (偏差 0.00%)
+  ✅ 通過 [140] 新增AI稅後影響 · 樂觀                        報告:       200.00
+                                                    Explicit analyst inputs / separately expanded Decimal expression: 200.00 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 13  |  通過: 13  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================

@@ -1,0 +1,47 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：泡泡瑪特-investment-team-AI利潤與競爭格局-20260925.md
+======================================================================
+
+  ✅ 通過 [ 9] 營業收入 · 2023A                         報告:        63.01
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100395_c.pdf: 63.01 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/9992/financials/: 63.01 (偏差 0.00%)
+  ✅ 通過 [23] 歸母淨利潤 · 2026H1A                      報告:        50.38
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf: 50.38 (偏差 0.01%)  |  https://www.etnet.com.hk/www/tc/stocks/realtime/quote_ci_pl.php?code=9992: 50.38 (偏差 0.01%)
+  ✅ 通過 [27] 經調整淨利潤，集團口徑 · 2025H1A                報告:        47.10
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf: 47.10 (偏差 0.01%)  |  https://www.xinhuanet.com/tech/20250820/662517765fb040baafc93ec4ef647d24/c.html: 47.10 (偏差 0.00%)
+  ✅ 通過 [24] 經調整淨利潤，集團口徑 · 2023A                  報告:        11.91
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100395_c.pdf: 11.91 (偏差 0.04%)  |  https://www.jiemian.com/article/10943681.html: 11.91 (偏差 0.00%)
+  ✅ 通過 [29] 毛利率 · 2023A                          報告:        61.30
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100395_c.pdf: 61.30 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/9992/financials/: 61.32 (偏差 0.03%)
+  ✅ 通過 [36] 經營現金淨流入 · 2025A                      報告:       108.65
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100395_c.pdf: 108.65 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/9992/financials/cash-flow-statement/: 108.65 (偏差 0.00%)
+  ✅ 通過 [51] 不計新增AI的歸母利潤 · 2028                   報告:       129.60
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 129.60 (偏差 0.00%)
+  ✅ 通過 [58] 含新增AI的歸母利潤 · 2029                    報告:       146.93
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 146.93 (偏差 0.00%)
+  ✅ 通過 [56] 含新增AI的歸母利潤 · 2027                    報告:       119.37
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 119.37 (偏差 0.00%)
+  ✅ 通過 [57] 含新增AI的歸母利潤 · 2028                    報告:       132.45
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 132.45 (偏差 0.00%)
+  ✅ 通過 [60] 相對非AI基線增厚 · 2028                     報告:         2.20 %
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 2.20 (偏差 0.20%)
+  ✅ 通過 [63] 運營與供應鏈稅前節省 · 2028                    報告:         3.36
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 3.36 (偏差 0.00%)
+  ✅ 通過 [71] AI競品與價格流量侵蝕 · 2028                   報告:        -0.72
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: -0.72 (偏差 0.00%)
+  ✅ 通過 [72] AI競品與價格流量侵蝕 · 2029                   報告:        -1.34
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: -1.34 (偏差 0.04%)
+  ✅ 通過 [109] 授權、內容及體驗等其他淨外部收入 · 利潤貢獻              報告:        13.80
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 13.80 (偏差 0.00%)
+  ✅ 通過 [155] 獨立需求校驗                               報告:       840.00 億元
+                                                    audit.py independent Decimal arithmetic, NOT external forecast evidence: 840.00 (偏差 0.00%)
+  ✅ 通過 [130] 2025收入，億元 · 一手/主源                    報告:       371.20
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2026/0421/2026042100395_c.pdf: 371.20 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/9992/financials/: 371.20 (偏差 0.00%)
+  ✅ 通過 [140] 2026H1歸母，億元 · 獨立交叉源                  報告:        50.38
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0820/2026082000353.pdf: 50.38 (偏差 0.01%)  |  https://www.etnet.com.hk/www/tc/stocks/realtime/quote_ci_pl.php?code=9992: 50.38 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽檢總數: 18  |  通過: 18  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================

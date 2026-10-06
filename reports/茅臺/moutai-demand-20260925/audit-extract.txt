@@ -1,0 +1,201 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/茅臺/貴州茅臺-investment-team-年輕需求與2036利潤-20260925.md
+總提取數據點：91  |  抽樣比例：15%  |  抽檢數量：14
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     28  營業收入 · 2026H1                              907.03  
+  5     29  歸母淨利潤 · 2023A                              747.34  
+ 12     30  經營現金流淨額 · 2026H1                           706.91  
+ 87     34  口徑說明                                      2025.00  
+ 14     38  銷量，噸 · 系列酒                               38353.48  
+ 15     39  銷量同比 · 茅臺酒                                   0.73  %
+ 18     40  不含增值稅收入，億元 · 系列酒                           222.75  
+ 29    151  樂觀 · 2036 行業需求指數                            90.00  
+ 32    177  茅臺酒銷量，噸 · 2028E                          48500.00  
+ 36    178  茅臺酒實現噸價，萬元 · 2028E                         324.00  
+ 55    183  歸母淨利潤，億元 · 2027E                           834.06  
+ 70    195  營業收入，億元 · 悲觀                              1246.63  
+ 76    197  2036 單年歸母淨利潤，億元 · 悲觀                       523.58  
+ 82    214  歸母淨利率僅為 45% · 2036 歸母利潤，億元                1006.48  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "營業收入 · 2026H1",
+    "reported_value": 907.03,
+    "unit": "",
+    "line_number": 28,
+    "raw_text": "| 營業收入 | 1476.94 | 1708.99 | 1688.38 | 907.03 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "歸母淨利潤 · 2023A",
+    "reported_value": 747.34,
+    "unit": "",
+    "line_number": 29,
+    "raw_text": "| 歸母淨利潤 | 747.34 | 862.28 | 823.20 | 445.17 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "經營現金流淨額 · 2026H1",
+    "reported_value": 706.91,
+    "unit": "",
+    "line_number": 30,
+    "raw_text": "| 經營現金流淨額 | 665.93 | 924.64 | 615.22 | 706.91 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 87,
+    "label": "口徑說明",
+    "reported_value": 2025.0,
+    "unit": "",
+    "line_number": 34,
+    "raw_text": "口徑說明：2025 年 **1720.54 億元**、2026H1 **922.78 億元**是營業總收入，包含金融業務利息收入，不是上表的營業收入。模型統一使用營業收入，並把金融收益及少數股東影響綜合包含在歸母淨利率中，不再重複加利息收益",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "銷量，噸 · 系列酒",
+    "reported_value": 38353.48,
+    "unit": "",
+    "line_number": 38,
+    "raw_text": "| 銷量，噸 | 46750.66 | 38353.48 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "銷量同比 · 茅臺酒",
+    "reported_value": 0.73,
+    "unit": "%",
+    "line_number": 39,
+    "raw_text": "| 銷量同比 | +0.73% | +3.88% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "不含增值稅收入，億元 · 系列酒",
+    "reported_value": 222.75,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 不含增值稅收入，億元 | 1465.00 | 222.75 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 29,
+    "label": "樂觀 · 2036 行業需求指數",
+    "reported_value": 90.0,
+    "unit": "",
+    "line_number": 151,
+    "raw_text": "| 樂觀 | 90—100 | 成年遷移較強，小聚和私人消費承接大部分損失 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 32,
+    "label": "茅臺酒銷量，噸 · 2028E",
+    "reported_value": 48500.0,
+    "unit": "",
+    "line_number": 177,
+    "raw_text": "| 茅臺酒銷量，噸 | 48000 | 48000 | 48500 | 49000 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 36,
+    "label": "茅臺酒實現噸價，萬元 · 2028E",
+    "reported_value": 324.0,
+    "unit": "",
+    "line_number": 178,
+    "raw_text": "| 茅臺酒實現噸價，萬元 | 312 | 318 | 324 | 330 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 55,
+    "label": "歸母淨利潤，億元 · 2027E",
+    "reported_value": 834.06,
+    "unit": "",
+    "line_number": 183,
+    "raw_text": "| 歸母淨利潤，億元 | 821.87 | 834.06 | 864.28 | 895.13 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 70,
+    "label": "營業收入，億元 · 悲觀",
+    "reported_value": 1246.63,
+    "unit": "",
+    "line_number": 195,
+    "raw_text": "| 營業收入，億元 | 1246.63 | 2236.63 | 3384.63 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 76,
+    "label": "2036 單年歸母淨利潤，億元 · 悲觀",
+    "reported_value": 523.58,
+    "unit": "",
+    "line_number": 197,
+    "raw_text": "| 2036 單年歸母淨利潤，億元 | **523.58** | **1095.95** | **1726.16** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "歸母淨利率僅為 45% · 2036 歸母利潤，億元",
+    "reported_value": 1006.48,
+    "unit": "",
+    "line_number": 214,
+    "raw_text": "| 歸母淨利率僅為 45% | 1006.48 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

@@ -1,0 +1,201 @@
+======================================================================
+報告數據抽檢清單
+文件：/Users/linxuan/ai-berkshire/reports/七公司商業質量與十年利潤-20260906/快手與美團底稿.md
+總提取數據點：89  |  抽樣比例：15%  |  抽檢數量：14
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     12  快手2026上半年 · 收入                             692.51
+  5     12  快手2026上半年 · IFRS歸母淨利潤                       60.49
+ 12     14  美團2026上半年 · 公司經調整淨利潤，非IFRS                 -24.44
+ 14     50  美團 · 已披露的經營或資本配置行為                        2025.00
+ 15     64  快手平均日活，百萬人 · 悲觀                            300.00
+ 18     65  每位日活年度廣告收入，人民幣元 · 悲觀                       180.00
+ 29     68  電商GMV · 樂觀                               35000.00
+ 32     69  技術佣金淨收入/GMV · 樂觀                             1.60  %
+ 36     71  傳統收入合計 · 悲觀                                872.00
+ 55     77  可靈歸屬快手利潤 · 基準                               30.00
+ 70     95  核心分部經營利潤 · 樂觀                             1190.00
+ 76     97  總部及持續股份薪酬等費用 · 樂觀                         -220.00
+ 82     99  稅前可持續利潤 · 樂觀                              1090.00
+ 87    101  2036可持續稅後歸母利潤 · 樂觀                         872.00
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "快手2026上半年 · 收入",
+    "reported_value": 692.51,
+    "unit": "",
+    "line_number": 12,
+    "raw_text": "| 快手2026上半年 | 692.51 | 60.49 | 72.87 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "快手2026上半年 · IFRS歸母淨利潤",
+    "reported_value": 60.49,
+    "unit": "",
+    "line_number": 12,
+    "raw_text": "| 快手2026上半年 | 692.51 | 60.49 | 72.87 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "美團2026上半年 · 公司經調整淨利潤，非IFRS",
+    "reported_value": -24.44,
+    "unit": "",
+    "line_number": 14,
+    "raw_text": "| 美團2026上半年 | 1956.82 | -46.72 | -24.44 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "美團 · 已披露的經營或資本配置行為",
+    "reported_value": 2025.0,
+    "unit": "",
+    "line_number": 50,
+    "raw_text": "| 美團 | 核心業務在2025競爭中轉虧，仍建設本地供給與國際業務；年報同時披露關停美團優選；2024大額回購之後，2025回購顯著收縮 | 強執行、重運營、圍繞用戶場景擴展；有退出舊業務的行為，競爭加劇時轉為保留現金 | 不能據此判斷補",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "快手平均日活，百萬人 · 悲觀",
+    "reported_value": 300.0,
+    "unit": "",
+    "line_number": 64,
+    "raw_text": "| 快手平均日活，百萬人 | 300 | 400 | 450 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "每位日活年度廣告收入，人民幣元 · 悲觀",
+    "reported_value": 180.0,
+    "unit": "",
+    "line_number": 65,
+    "raw_text": "| 每位日活年度廣告收入，人民幣元 | 180 | 280 | 350 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 29,
+    "label": "電商GMV · 樂觀",
+    "reported_value": 35000.0,
+    "unit": "",
+    "line_number": 68,
+    "raw_text": "| 電商GMV | 11000 | 23000 | 35000 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 32,
+    "label": "技術佣金淨收入/GMV · 樂觀",
+    "reported_value": 1.6,
+    "unit": "%",
+    "line_number": 69,
+    "raw_text": "| 技術佣金淨收入/GMV | 1.2% | 1.4% | 1.6% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 36,
+    "label": "傳統收入合計 · 悲觀",
+    "reported_value": 872.0,
+    "unit": "",
+    "line_number": 71,
+    "raw_text": "| 傳統收入合計 | 872 | 1722 | 2485 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 55,
+    "label": "可靈歸屬快手利潤 · 基準",
+    "reported_value": 30.0,
+    "unit": "",
+    "line_number": 77,
+    "raw_text": "| 可靈歸屬快手利潤 | -3.60 | 30.00 | 80.00 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 70,
+    "label": "核心分部經營利潤 · 樂觀",
+    "reported_value": 1190.0,
+    "unit": "",
+    "line_number": 95,
+    "raw_text": "| 核心分部經營利潤 | 210 | 650 | 1190 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 76,
+    "label": "總部及持續股份薪酬等費用 · 樂觀",
+    "reported_value": -220.0,
+    "unit": "",
+    "line_number": 97,
+    "raw_text": "| 總部及持續股份薪酬等費用 | -180 | -180 | -220 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "稅前可持續利潤 · 樂觀",
+    "reported_value": 1090.0,
+    "unit": "",
+    "line_number": 99,
+    "raw_text": "| 稅前可持續利潤 | -70 | 480 | 1090 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 87,
+    "label": "2036可持續稅後歸母利潤 · 樂觀",
+    "reported_value": 872.0,
+    "unit": "",
+    "line_number": 101,
+    "raw_text": "| **2036可持續稅後歸母利潤** | **-70** | **384** | **872** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

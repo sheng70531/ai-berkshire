@@ -1,0 +1,26 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：騰訊與快手對比研究-20260906.md
+======================================================================
+
+  [92m✅ 通過[0m [ 1] 收盤價（港元） · 騰訊 00700                   報告:       442.80 
+                                                    https://stockanalysis.com/quote/hkg/0700/history/ (2026-09-04): 442.80 (偏差 0.00%)  |  https://cn.investing.com/equities/tencent-holdings-hk-historical-data (2026-09-04): 442.80 (偏差 0.00%)
+  [92m✅ 通過[0m [ 4] 已發行股數（股） · 快手 01024                  報告: 4326961215.00 
+                                                    IR linked Euroland: September 3 next-day B shares + August monthly A shares; URLs in 獨立來源與反方核查.md: 4326961215.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/1024/statistics/ (4.33 billion, rounded): 4330000000.00 (偏差 0.07%)
+  [92m✅ 通過[0m [ 9] 截至中期的 TTM 歸母淨利潤（億元） · 騰訊 00700       報告:      2355.08 
+                                                    Tencent FY2025 + H12026 - H12025 IFRS attributable income; primary statement values 224842,114115,103449 million CNY: 2355.08 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/ (TTM net income 235508 million CNY): 2355.08 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 3  |  通過: [92m3[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 3,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 3,
+  "fail_items": [],
+  "warn_items": []
+}

@@ -1,0 +1,31 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：快手與美團五年底稿-models
+======================================================================
+
+  [92m✅ 通過[0m [14] 傳統業務稅後可持續利潤率 · 樂觀                    報告:        14.00 %
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 14.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 14.00 (偏差 0.00%)
+  [92m✅ 通過[0m [12] 傳統業務稅後可持續利潤率 · 保守                    報告:         7.00 %
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 7.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 7.00 (偏差 0.00%)
+  [92m✅ 通過[0m [15] 可靈收入 · 保守                            報告:        40.00 
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 40.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 40.00 (偏差 0.00%)
+  [92m✅ 通過[0m [18] 可靈稅後可持續利潤率 · 保守                      報告:       -20.00 %
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: -20.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: -20.00 (偏差 0.00%)
+  [92m✅ 通過[0m [29] 稅後歸母可持續利潤 · 樂觀                       報告:       288.50 
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 288.50 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 288.50 (偏差 0.00%)
+  [92m✅ 通過[0m [32] 退出整體PE · 樂觀                          報告:        16.00 倍
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 16.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 16.00 (偏差 0.00%)
+  [92m✅ 通過[0m [36] 每年股息，港元/股 · 基準                       報告:         0.80 
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 0.80 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 0.80 (偏差 0.00%)
+  [92m✅ 通過[0m [55] 總部及持續股份薪酬等費用 · 樂觀                    報告:      -140.00 
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: -140.00 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: -140.00 (偏差 0.00%)
+  [92m✅ 通過[0m [68] 每年淨股本變化 · 基準                         報告:         0.50 %
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 0.50 (偏差 0.00%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 0.50 (偏差 0.00%)
+  [92m✅ 通過[0m [74] 五年終值財富等效年化 · 樂觀                      報告:        20.40 %
+                                                    Model input or 48-digit Decimal reproduction; not external evidence of future outcome: 20.42 (偏差 0.10%)  |  financial-rigor.txt formula or declared model input transcription; not a second historical source: 20.42 (偏差 0.10%)
+
+----------------------------------------------------------------------
+  抽檢總數: 10  |  通過: [92m10[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================

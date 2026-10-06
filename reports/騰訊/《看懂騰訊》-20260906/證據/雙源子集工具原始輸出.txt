@@ -1,0 +1,39 @@
+僅9條已具兩源子集的工具結果；其報告可發佈措辭不代表全部正文準出。
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：騰訊系列僅雙源已核子集（非全文準出）
+======================================================================
+
+  [92m✅ 通過[0m [ 2] 現金資本開支付款 · 披露金額                      報告:       593.00 億元
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf: 593.00 (偏差 0.00%)  |  https://uobkh.com.sg/en/research/company-hk-tencent-holdings-700-hk-13082026: 593.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 3] 算力預付款 · 披露金額                         報告:       514.00 億元
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf: 514.00 (偏差 0.00%)  |  https://uobkh.com.sg/en/research/company-hk-tencent-holdings-700-hk-13082026: 514.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 5] 剔除算力預付款的公司自由現金流 · 披露金額               報告:       376.00 億元
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/E700_IR.pdf: 376.00 (偏差 0.00%)  |  https://uobkh.com.sg/en/research/company-hk-tencent-holdings-700-hk-13082026: 376.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 2] 收入 · 2022                            報告:    554552.00 
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf: 554552.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 554552.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 6] 毛利 · 2021                            報告:    245944.00 
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf: 245944.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 245931.00 (偏差 0.01%)
+  [92m✅ 通過[0m [ 7] 毛利 · 2022                            報告:    238746.00 
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf: 238746.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 238887.00 (偏差 0.06%)
+  [92m✅ 通過[0m [26] 經營活動淨現金流 · 2021                      報告:    175186.00 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2023/0406/2023040601848.pdf: 175186.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 175186.00 (偏差 0.00%)
+  [92m✅ 通過[0m [33] 現金購買及預付物業設備等 · 2023                  報告:     21008.00 
+                                                    https://www.hkexnews.hk/listedco/listconews/sehk/2024/0408/2024040801822.pdf: 21008.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 21008.00 (偏差 0.00%)
+  [92m✅ 通過[0m [59] 毛利 · 2025 全年                         報告:    422593.00 
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0409/2026040901231.pdf: 422593.00 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 422870.00 (偏差 0.07%)
+
+----------------------------------------------------------------------
+  抽檢總數: 9  |  通過: [92m9[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 9,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 9,
+  "fail_items": [],
+  "warn_items": []
+}

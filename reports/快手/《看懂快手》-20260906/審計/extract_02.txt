@@ -1,0 +1,58 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/快手/《看懂快手》-20260906/02-可靈值多少錢先問誰付成本.md
+總提取數據點：9  |  抽樣比例：15%  |  抽檢數量：3
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     75  有效定價、利用率較高 · 渠道與服務成本                        15.00  
+  1     75  有效定價、利用率較高 · 直接生成及交付成本                      25.00  
+  6     76  價格競爭與正常使用 · 覆蓋訓練研發前的貢獻                      40.00  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "有效定價、利用率較高 · 渠道與服務成本",
+    "reported_value": 15.0,
+    "unit": "",
+    "line_number": 75,
+    "raw_text": "| 有效定價、利用率較高 | 25 | 15 | 60 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 1,
+    "label": "有效定價、利用率較高 · 直接生成及交付成本",
+    "reported_value": 25.0,
+    "unit": "",
+    "line_number": 75,
+    "raw_text": "| 有效定價、利用率較高 | 25 | 15 | 60 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 6,
+    "label": "價格競爭與正常使用 · 覆蓋訓練研發前的貢獻",
+    "reported_value": 40.0,
+    "unit": "",
+    "line_number": 76,
+    "raw_text": "| 價格競爭與正常使用 | 45 | 15 | 40 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

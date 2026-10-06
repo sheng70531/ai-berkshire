@@ -1,0 +1,298 @@
+{
+  "report": "快手-公眾號-看懂快手02-20260906.md",
+  "review_date": "2026-09-06",
+  "sha256": "c292a250b60a2f13e0e4978a582c7bca0b22d87a14556001f2609fa86bf26fac",
+  "chinese_characters": 3270,
+  "table_count": 4,
+  "automatic_extract_count": 25,
+  "sample_seed": 42,
+  "automatic_sample_checks": [
+    {
+      "id": 1,
+      "label": "收入 · 數值",
+      "reported_value": 11.0,
+      "unit": "億元",
+      "raw_text": "| 收入 | 約11億元人民幣 | 2025年；假設重組完成的未經審計備考資料 |",
+      "line_number": 13,
+      "fetched_value": 11,
+      "fetched_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "備考收入約數",
+      "external_source_count": 1
+    },
+    {
+      "id": 4,
+      "label": "淨虧損 · 時間、幣種與性質",
+      "reported_value": 2025.0,
+      "unit": "",
+      "raw_text": "| 淨虧損 | 約19億元人民幣 | 2025年；同一備考口徑，並非2026年最新虧損 |",
+      "line_number": 14,
+      "fetched_value": 2025,
+      "fetched_source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "年份元數據",
+      "external_source_count": 1
+    },
+    {
+      "id": 21,
+      "label": "重試較多、價格承壓 · 剩餘貢獻",
+      "reported_value": 20.0,
+      "unit": "",
+      "raw_text": "| 重試較多、價格承壓 | 65元 | 15元 | 20元 |",
+      "line_number": 51,
+      "fetched_value": 20,
+      "fetched_source": "第二三篇-計算複核.json; financial_rigor calc + independent Decimal",
+      "classification": "教學成本假設",
+      "external_source_count": 0
+    },
+    {
+      "id": 24,
+      "label": "對應條件投票權 · 公告所列安排",
+      "reported_value": 52.23,
+      "unit": "%",
+      "raw_text": "| 對應條件投票權 | 52.23%加1.57%，合計53.80% | 與經濟權益分開，不是同一個比例 |",
+      "line_number": 73,
+      "fetched_value": 52.23,
+      "fetched_source": "https://ea-cdn.eurolandir.com/press-releases-attachments/4175052/HKEX-EPS_20260831_12309546_0.PDF",
+      "classification": "條件投票權",
+      "external_source_count": 1
+    }
+  ],
+  "tool_verdict": {
+    "verdict": "PASS",
+    "pass_count": 4,
+    "warn_count": 0,
+    "fail_count": 0,
+    "total": 4,
+    "fail_items": [],
+    "warn_items": []
+  },
+  "complete_numeric_table_row_checks": [
+    {
+      "label": "收入",
+      "values": [
+        "11"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "淨虧損",
+      "values": [
+        "19"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "季度收入",
+      "values": [
+        "6.5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "季度收入",
+      "values": [
+        "8.5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "年化收入運行率",
+      "values": [
+        "5"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "融資前估值",
+      "values": [
+        "150"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "認購上限",
+      "values": [
+        "30"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "定價與利用率較好",
+      "values": [
+        "25",
+        "15",
+        "60"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "價格競爭、正常使用",
+      "values": [
+        "45",
+        "15",
+        "40"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "重試較多、價格承壓",
+      "values": [
+        "65",
+        "15",
+        "20"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "認購進度",
+      "values": [
+        "30"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "快手條件經濟權益",
+      "values": [
+        "66.33",
+        "2.00",
+        "68.33"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "對應條件投票權",
+      "values": [
+        "52.23",
+        "1.57",
+        "53.80"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "蓋坤條件權益",
+      "values": [
+        "3.00",
+        "23.62"
+      ],
+      "status": "PASS"
+    },
+    {
+      "label": "合併報表",
+      "values": [],
+      "status": "PASS"
+    }
+  ],
+  "manual_core_fact_records": [
+    {
+      "label": "2025可靈備考收入",
+      "value": 11,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "已披露約數;未審計",
+      "external_source_count": 1
+    },
+    {
+      "label": "2025可靈備考虧損",
+      "value": 19,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "已披露約數;未審計",
+      "external_source_count": 1
+    },
+    {
+      "label": "Q1可靈收入下界",
+      "value": 6.5,
+      "source": "https://ir.kuaishou.com/static-files/51eda7e7-a9e8-43c1-b688-43f131104d98",
+      "classification": "公司披露超過此數",
+      "external_source_count": 1
+    },
+    {
+      "label": "Q2可靈收入下界",
+      "value": 8.5,
+      "source": "https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-technology-announces-second-quarter-and-interim-2026",
+      "classification": "公司披露超過此數",
+      "external_source_count": 1
+    },
+    {
+      "label": "2026年3月收入運行率_億美元",
+      "value": 5,
+      "source": "https://ir.kuaishou.com/static-files/51eda7e7-a9e8-43c1-b688-43f131104d98",
+      "classification": "公司披露約數;非實現全年收入",
+      "external_source_count": 1
+    },
+    {
+      "label": "融資前估值_億美元",
+      "value": 150,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "融資合同定價",
+      "external_source_count": 1
+    },
+    {
+      "label": "認購上限_億美元",
+      "value": 30,
+      "source": "https://ea-cdn.eurolandir.com/press-releases-attachments/4175052/HKEX-EPS_20260831_12309546_0.PDF",
+      "classification": "額度用滿非證明到賬",
+      "external_source_count": 1
+    },
+    {
+      "label": "快手條件經濟權益",
+      "value": 68.33,
+      "source": "https://ea-cdn.eurolandir.com/press-releases-attachments/4175052/HKEX-EPS_20260831_12309546_0.PDF",
+      "classification": "公告表分項加總",
+      "external_source_count": 1
+    },
+    {
+      "label": "快手條件投票權",
+      "value": 53.8,
+      "source": "https://ea-cdn.eurolandir.com/press-releases-attachments/4175052/HKEX-EPS_20260831_12309546_0.PDF",
+      "classification": "公告表分項加總",
+      "external_source_count": 1
+    },
+    {
+      "label": "回購請求窗口_月",
+      "value": 12,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "觸發後合同請求權",
+      "external_source_count": 1
+    },
+    {
+      "label": "最遲付款日期通常_天",
+      "value": 120,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "允許依合同延長",
+      "external_source_count": 1
+    },
+    {
+      "label": "最遲上市日期起算_年",
+      "value": 5,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "最遲付款日起算",
+      "external_source_count": 1
+    },
+    {
+      "label": "重組許可備案期限_月",
+      "value": 9,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "允許合同例外",
+      "external_source_count": 1
+    },
+    {
+      "label": "合同年單利",
+      "value": 8,
+      "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0702/2026070204066_c.pdf",
+      "classification": "附條件非無條件回報",
+      "external_source_count": 1
+    }
+  ],
+  "model_source": "../《看懂快手》-20260906/審計/dcf_scenarios.json",
+  "recalculation_source": "第二三篇-計算複核.json",
+  "scope": "全文作者-編輯-讀者審閱；全部核心數字表行核對和33項獨立算術復算。工具樣本混合年份、事實、計算和假設，已分別標註。PASS僅表示所核數值一致，不證明預測實現或所有事實雙源。融資合同以發行人原件為準；8月31日更新本輪使用此前取得的官方緩存。未改動原研究及第一篇。",
+  "presentation_revisions": [
+    {
+      "date": "2026-09-07",
+      "previous_sha256": "22d76cf2c7fd7450282fd0ba84d0914c9ac1a87dd62109b53621f595e2de1386",
+      "change": "正文外鏈集中到配套審讀記錄;文末只保留一個資料入口。表格、公式、數據與口徑說明保持;第三篇將第三方頁面明確為Stock Analysis。",
+      "original_external_link_occurrences": 9,
+      "article_external_link_occurrences": 1,
+      "body_external_link_occurrences": 0,
+      "verification": "所有表格行和LaTeX公式逐字對照一致;原始鏈接與頁碼完整歸檔;抽檢行號更新。未重新執行來源審計或估值預測。"
+    }
+  ]
+}

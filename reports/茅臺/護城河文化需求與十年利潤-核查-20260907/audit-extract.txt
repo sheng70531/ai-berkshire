@@ -1,0 +1,97 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/茅臺/貴州茅臺護城河文化需求與十年利潤研究報告-20260907.md
+總提取數據點：39  |  抽樣比例：15%  |  抽檢數量：6
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     13  營業收入 · 2026 上半年                            907.03  億元
+  8     16  歸母淨利潤同比 · 2026 上半年                          -1.95  %
+  9     17  歸母利潤／營業收入，本文計算 · 2025 全年                    48.76  %
+ 15    103  茅臺酒實現噸價年均變化 · 樂觀                             5.00  %
+ 18    104  系列酒收入年均變化 · 樂觀                               5.00  %
+ 16    104  系列酒收入年均變化 · 悲觀                              -2.00  %
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "營業收入 · 2026 上半年",
+    "reported_value": 907.03,
+    "unit": "億元",
+    "line_number": 13,
+    "raw_text": "| 營業收入 | 1688.38 億元 | 907.03 億元 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 8,
+    "label": "歸母淨利潤同比 · 2026 上半年",
+    "reported_value": -1.95,
+    "unit": "%",
+    "line_number": 16,
+    "raw_text": "| 歸母淨利潤同比 | -4.53% | -1.95% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 9,
+    "label": "歸母利潤／營業收入，本文計算 · 2025 全年",
+    "reported_value": 48.76,
+    "unit": "%",
+    "line_number": 17,
+    "raw_text": "| 歸母利潤／營業收入，本文計算 | 48.76% | 49.08% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "茅臺酒實現噸價年均變化 · 樂觀",
+    "reported_value": 5.0,
+    "unit": "%",
+    "line_number": 103,
+    "raw_text": "| 茅臺酒實現噸價年均變化 | 0% | +3% | +5% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "系列酒收入年均變化 · 樂觀",
+    "reported_value": 5.0,
+    "unit": "%",
+    "line_number": 104,
+    "raw_text": "| 系列酒收入年均變化 | -2% | +3% | +5% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "系列酒收入年均變化 · 悲觀",
+    "reported_value": -2.0,
+    "unit": "%",
+    "line_number": 104,
+    "raw_text": "| 系列酒收入年均變化 | -2% | +3% | +5% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

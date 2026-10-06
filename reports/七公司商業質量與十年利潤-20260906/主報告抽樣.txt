@@ -1,0 +1,97 @@
+======================================================================
+報告數據抽檢清單
+文件：/Users/linxuan/ai-berkshire/reports/七公司商業質量與十年利潤-20260906/七公司對比研究報告-20260906.md
+總提取數據點：36  |  抽樣比例：15%  |  抽檢數量：6
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     65  騰訊 · 最新一期歸母淨利潤                            1141.15
+  5     67  阿里巴巴 · 最近完整年度歸母淨利潤                        1059.04
+  8     68  美團 · 最新一期歸母淨利潤                             -46.72
+ 16     79  騰訊 · 基準情景                                 4600.00
+ 15     79  騰訊 · 保守情景                                 1700.00
+ 18     80  拼多多 · 保守情景                                 530.00
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "騰訊 · 最新一期歸母淨利潤",
+    "reported_value": 1141.15,
+    "unit": "",
+    "line_number": 65,
+    "raw_text": "| 騰訊 | 2248.42 | 1141.15（2026H1） | [雙源與原件](騰訊與拼多多底稿.md) |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "阿里巴巴 · 最近完整年度歸母淨利潤",
+    "reported_value": 1059.04,
+    "unit": "",
+    "line_number": 67,
+    "raw_text": "| 阿里巴巴 | 1059.04（FY2026） | 105.37（2026年6月季度） | [雙源與原件](阿里巴巴底稿.md) |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 8,
+    "label": "美團 · 最新一期歸母淨利潤",
+    "reported_value": -46.72,
+    "unit": "",
+    "line_number": 68,
+    "raw_text": "| 美團 | -233.55 | -46.72（2026H1，四捨五入） | [雙源與歸屬口徑](快手與美團底稿.md) |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "騰訊 · 基準情景",
+    "reported_value": 4600.0,
+    "unit": "",
+    "line_number": 79,
+    "raw_text": "| 騰訊 | 1700 | 4600 | 6600 | 相對最高，仍有AI資本回報風險 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "騰訊 · 保守情景",
+    "reported_value": 1700.0,
+    "unit": "",
+    "line_number": 79,
+    "raw_text": "| 騰訊 | 1700 | 4600 | 6600 | 相對最高，仍有AI資本回報風險 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "拼多多 · 保守情景",
+    "reported_value": 530.0,
+    "unit": "",
+    "line_number": 80,
+    "raw_text": "| 拼多多 | 530 | 1600 | 3000 | 中等，國內與Temu需拆開 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

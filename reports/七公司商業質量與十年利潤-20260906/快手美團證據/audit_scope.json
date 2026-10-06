@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "sample_count": 14,
+  "historical_facts": 3,
+  "model_consistency_only": 10,
+  "excluded": [
+    {
+      "id": 14,
+      "label": "美團 · 已披露的經營或資本配置行為",
+      "reported_value": 2025.0,
+      "unit": "",
+      "raw_text": "| 美團 | 核心業務在2025競爭中轉虧，仍建設本地供給與國際業務；年報同時披露關停美團優選；2024大額回購之後，2025回購顯著收縮 | 強執行、重運營、圍繞用戶場景擴展；有退出舊業務的行為，競爭加劇時轉為保留現金 | 不能據此判斷補",
+      "line_number": 50,
+      "reason": "The extractor matched the year 2025 in a narrative table, not a financial amount. Full behavior claim checked in official annual report."
+    }
+  ],
+  "forecast_validated": false
+}

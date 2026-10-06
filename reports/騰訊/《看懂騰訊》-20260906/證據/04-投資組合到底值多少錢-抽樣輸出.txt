@@ -1,0 +1,58 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/騰訊/《看懂騰訊》-20260906/04-投資組合到底值多少錢.md
+總提取數據點：19  |  抽樣比例：15%  |  抽檢數量：3
+隨機種子：20260906（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+ 10     87  熊市 · 加入的淨現金                                  8.19  
+ 12     88  基準 · 上市投資取值                                487.20  
+ 15     88  基準 · 合計非核心價值橋                              591.90  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 10,
+    "label": "熊市 · 加入的淨現金",
+    "reported_value": 8.191,
+    "unit": "",
+    "line_number": 87,
+    "raw_text": "| 熊市 | 487.2 × 65% = 316.68 | 387.9 × 35% = 135.765 | 8.191 | 460.636 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "基準 · 上市投資取值",
+    "reported_value": 487.2,
+    "unit": "",
+    "line_number": 88,
+    "raw_text": "| 基準 | 487.2 × 80% = 389.76 | 387.9 × 50% = 193.950 | 8.191 | 591.901 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "基準 · 合計非核心價值橋",
+    "reported_value": 591.901,
+    "unit": "",
+    "line_number": 88,
+    "raw_text": "| 基準 | 487.2 × 80% = 389.76 | 387.9 × 50% = 193.950 | 8.191 | 591.901 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

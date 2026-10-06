@@ -1,0 +1,136 @@
+======================================================================
+報告數據抽檢清單
+文件：/Users/linxuan/ai-berkshire/reports/七公司商業質量與十年利潤-20260906/騰訊與拼多多底稿.md
+總提取數據點：56  |  抽樣比例：15%  |  抽檢數量：9
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     12  拼多多 · 2036悲觀／基準／樂觀年度利潤                     500.00
+  8     22  2026上半年收入 · 拼多多                           2185.87
+  9     23  2026上半年經營利潤 · 騰訊                          1346.51
+ 16     70  VAS收入年增速 / 2036經濟淨利率 · 樂觀                    8.00  %
+ 15     70  VAS收入年增速 / 2036經濟淨利率 · 基準                    6.00  %
+ 18     71  廣告收入年增速 / 2036經濟淨利率 · 基準                     9.00  %
+ 41     96  交易服務收入年增速 / 2036經濟淨利率 · 樂觀                  12.00  %
+ 48     99  2036經濟歸母淨利潤計算值 · 悲觀                        532.40
+ 53    100  主表取整數 · 樂觀                                3000.00
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "拼多多 · 2036悲觀／基準／樂觀年度利潤",
+    "reported_value": 500.0,
+    "unit": "",
+    "line_number": 12,
+    "raw_text": "| 拼多多 | 商家為訂單與流量付錢，消費者為便宜、便利的商品而復購；平臺利潤來自供應鏈、匹配和組織效率 | 成本效率與訂單規模較強，消費者轉換成本較弱；海外合規與履約優勢尚須證明 | 低價、效率、長期再投資的傾嚮明顯；經營執行力的證據多於",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 8,
+    "label": "2026上半年收入 · 拼多多",
+    "reported_value": 2185.87,
+    "unit": "",
+    "line_number": 22,
+    "raw_text": "| 2026上半年收入 | 4012.43 | 2185.87 | 已披露實際、未經審計 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 9,
+    "label": "2026上半年經營利潤 · 騰訊",
+    "reported_value": 1346.51,
+    "unit": "",
+    "line_number": 23,
+    "raw_text": "| 2026上半年經營利潤 | 1346.51 | 473.30 | 已披露實際；兩家準則及經營損益分類仍有差異 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "VAS收入年增速 / 2036經濟淨利率 · 樂觀",
+    "reported_value": 8.0,
+    "unit": "%",
+    "line_number": 70,
+    "raw_text": "| VAS收入年增速 / 2036經濟淨利率 | 0% / 25% | 6% / 32% | 8% / 36% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "VAS收入年增速 / 2036經濟淨利率 · 基準",
+    "reported_value": 6.0,
+    "unit": "%",
+    "line_number": 70,
+    "raw_text": "| VAS收入年增速 / 2036經濟淨利率 | 0% / 25% | 6% / 32% | 8% / 36% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "廣告收入年增速 / 2036經濟淨利率 · 基準",
+    "reported_value": 9.0,
+    "unit": "%",
+    "line_number": 71,
+    "raw_text": "| 廣告收入年增速 / 2036經濟淨利率 | 2% / 25% | 9% / 35% | 12% / 40% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 41,
+    "label": "交易服務收入年增速 / 2036經濟淨利率 · 樂觀",
+    "reported_value": 12.0,
+    "unit": "%",
+    "line_number": 96,
+    "raw_text": "| 交易服務收入年增速 / 2036經濟淨利率 | -2% / -3% | 8% / 6% | 12% / 13% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 48,
+    "label": "2036經濟歸母淨利潤計算值 · 悲觀",
+    "reported_value": 532.4,
+    "unit": "",
+    "line_number": 99,
+    "raw_text": "| 2036經濟歸母淨利潤計算值 | 532.40 | 1638.66 | 2968.69 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 53,
+    "label": "主表取整數 · 樂觀",
+    "reported_value": 3000.0,
+    "unit": "",
+    "line_number": 100,
+    "raw_text": "| 主表取整數 | **500** | **1600** | **3000** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

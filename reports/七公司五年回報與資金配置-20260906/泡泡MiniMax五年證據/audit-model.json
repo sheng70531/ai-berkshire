@@ -1,0 +1,123 @@
+[
+  {
+    "id": 15,
+    "label": "收入 · 樂觀",
+    "reported_value": 950.0,
+    "unit": "",
+    "raw_text": "| 收入 | 250 | 550 | 950 |",
+    "line_number": 28,
+    "fetched_value": 950.0,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 14,
+    "label": "收入 · 基準",
+    "reported_value": 550.0,
+    "unit": "",
+    "raw_text": "| 收入 | 250 | 550 | 950 |",
+    "line_number": 28,
+    "fetched_value": 550.0,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 18,
+    "label": "毛利率 · 樂觀",
+    "reported_value": 70.0,
+    "unit": "%",
+    "raw_text": "| 毛利率 | 55% | 67% | 70% |",
+    "line_number": 29,
+    "fetched_value": 70.0,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 29,
+    "label": "2031 總股數，億股 · 基準",
+    "reported_value": 13.31779203,
+    "unit": "",
+    "raw_text": "| 2031 總股數，億股 | 13.31779203 | 13.31779203 | 13.31779203 |",
+    "line_number": 33,
+    "fetched_value": 13.31779203,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 32,
+    "label": "五年現金股息合計，港元/股 · 基準",
+    "reported_value": 13.58,
+    "unit": "",
+    "raw_text": "| 五年現金股息合計，港元/股 | 5.90 | 13.58 | 23.04 |",
+    "line_number": 34,
+    "fetched_value": 13.581593820309287,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 36,
+    "label": "退出股價，港元 · 樂觀",
+    "reported_value": 546.99,
+    "unit": "",
+    "raw_text": "| 退出股價，港元 | 31.92 | 202.23 | 546.99 |",
+    "line_number": 35,
+    "fetched_value": 546.9908584590939,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 55,
+    "label": "稅後經濟利潤，億元人民幣 · 悲觀",
+    "reported_value": -27.11,
+    "unit": "",
+    "raw_text": "| 稅後經濟利潤，億元人民幣 | -27.11 | -3.39 | 122.02 |",
+    "line_number": 55,
+    "fetched_value": -27.1148,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 70,
+    "label": "五年年化 · 悲觀",
+    "reported_value": -50.8,
+    "unit": "%",
+    "raw_text": "| **五年年化** | **-50.8%** | **-8.2%** | **+16.8%** |",
+    "line_number": 61,
+    "fetched_value": -50.76676609679694,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 76,
+    "label": "新增股份中預留員工獲股，百萬股 · 悲觀",
+    "reported_value": 20.0,
+    "unit": "",
+    "raw_text": "| 新增股份中預留員工獲股，百萬股 | 20 | 20 | 20 |",
+    "line_number": 76,
+    "fetched_value": 20.0,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 82,
+    "label": "按1%發行成本後新股淨籌資 · 悲觀",
+    "reported_value": 31.25,
+    "unit": "",
+    "raw_text": "| 按1%發行成本後新股淨籌資 | 31.25 | 24.77 | 40.79 |",
+    "line_number": 78,
+    "fetched_value": 31.25100525512608,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  },
+  {
+    "id": 87,
+    "label": "償債與消耗後剩餘資金 · 樂觀",
+    "reported_value": 28.61,
+    "unit": "",
+    "raw_text": "| 償債與消耗後剩餘資金 | 9.07 | 7.59 | 28.61 |",
+    "line_number": 79,
+    "fetched_value": 28.61049574816198,
+    "fetched_source": "Explicit input or financial_rigor with independent Decimal arithmetic; no forecast verified",
+    "classification": "assumption_or_model_arithmetic_only"
+  }
+]

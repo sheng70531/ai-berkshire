@@ -1,0 +1,38 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：/Users/linxuan/ai-berkshire/reports/七公司商業質量與十年利潤-20260906/騰訊與拼多多底稿.md
+======================================================================
+
+  [92m✅ 通過[0m [ 2] 拼多多 · 2036悲觀／基準／樂觀年度利潤               報告:       500.00
+                                                    financial_rigor output rounded as stated: 500.00 (偏差 0.00%)  |  40 digit Decimal independent recalculation rounded as stated: 500.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 8] 2026上半年收入 · 拼多多                      報告:      2185.87
+                                                    https://investor.pddholdings.com/news-releases/news-release-details/pdd-holdings-announces-second-quarter-2026-unaudited-financial/: 2185.87 (偏差 0.00%)  |  https://www.marketscreener.com/news/pdd-holdings-inc-reports-earnings-results-for-the-second-quarter-and-six-months-ended-june-30-2026-ce7858dbda8bf527: 2185.87 (偏差 0.00%)
+  [92m✅ 通過[0m [ 9] 2026上半年經營利潤 · 騰訊                     報告:      1346.51
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf: 1346.51 (偏差 0.00%)  |  https://finance.eastmoney.com/a/202608123839209916.html (Caizhong News original): 1346.51 (偏差 0.00%)
+  [92m✅ 通過[0m [16] VAS收入年增速 / 2036經濟淨利率 · 樂觀            報告:         8.00 %
+                                                    Scenario input in 騰訊與拼多多計算.py: 8.00 (偏差 0.00%)  |  Independent inspection of growth factor in 騰訊與拼多多Decimal復算.json: 8.00 (偏差 0.00%)
+  [92m✅ 通過[0m [15] VAS收入年增速 / 2036經濟淨利率 · 基準            報告:         6.00 %
+                                                    Scenario input in 騰訊與拼多多計算.py: 6.00 (偏差 0.00%)  |  Independent inspection of growth factor in 騰訊與拼多多Decimal復算.json: 6.00 (偏差 0.00%)
+  [92m✅ 通過[0m [18] 廣告收入年增速 / 2036經濟淨利率 · 基準             報告:         9.00 %
+                                                    Scenario input in 騰訊與拼多多計算.py: 9.00 (偏差 0.00%)  |  Independent inspection of growth factor in 騰訊與拼多多Decimal復算.json: 9.00 (偏差 0.00%)
+  [92m✅ 通過[0m [41] 交易服務收入年增速 / 2036經濟淨利率 · 樂觀           報告:        12.00 %
+                                                    Scenario input in 騰訊與拼多多計算.py: 12.00 (偏差 0.00%)  |  Independent inspection of growth factor in 騰訊與拼多多Decimal復算.json: 12.00 (偏差 0.00%)
+  [92m✅ 通過[0m [48] 2036經濟歸母淨利潤計算值 · 悲觀                  報告:       532.40
+                                                    financial_rigor output rounded as stated: 532.40 (偏差 0.00%)  |  40 digit Decimal independent recalculation rounded as stated: 532.40 (偏差 0.00%)
+  [92m✅ 通過[0m [53] 主表取整數 · 樂觀                           報告:      3000.00
+                                                    financial_rigor output rounded as stated: 3000.00 (偏差 0.00%)  |  40 digit Decimal independent recalculation rounded as stated: 3000.00 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 9  |  通過: [92m9[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 9,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 9,
+  "fail_items": [],
+  "warn_items": []
+}

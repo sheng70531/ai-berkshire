@@ -1,0 +1,27 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：reports/英偉達/英偉達商業模式與十年利潤研究-20260907.md
+======================================================================
+
+  ✅ 通過 [ 2] 收入 · FY2023                          報告:       269.74 億美元
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm: 269.74 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 269.74 (偏差 0.00%)
+  ✅ 通過 [ 8] GAAP淨利潤 · FY2024                     報告:       297.60 億美元
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm: 297.60 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 297.60 (偏差 0.00%)
+  ✅ 通過 [ 9] GAAP淨利潤 · FY2025                     報告:       728.80 億美元
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm: 728.80 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 728.80 (偏差 0.00%)
+  ✅ 通過 [15] 毛利率 · FY2026                         報告:        71.10 %
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm: 71.10 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 71.07 (偏差 0.04%)
+  ✅ 通過 [18] 經營現金流 · FY2024                       報告:       280.90 億美元
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm: 280.90 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 280.90 (偏差 0.00%)
+  ✅ 通過 [16] 經營現金流 · FY2022                       報告:        91.08 億美元
+                                                    https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm: 91.08 (偏差 0.00%)  |  https://stockanalysis.com/stocks/nvda/financials/: 91.08 (偏差 0.00%)
+  ⬜ [41] 其他收入（假設） · 基準                            1000.00   →  [未提供核驗值，跳過]
+  ⬜ [48] 常態淨利率（假設） · 樂觀                             45.00 %  →  [未提供核驗值，跳過]
+  ✅ 通過 [53] 價值份額下降10個百分點至35% · 年度常態利潤（億美元）       報告:      3200.00 億美元
+                                                    financial_rigor: (2000 * 0.35 + 100) * 0.40; USD bn converted to 億美元: 3200.00 (偏差 0.00%)  |  Independent Decimal arithmetic; NOT independent forecast evidence: 3200.00 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 7  |  通過: 7  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================

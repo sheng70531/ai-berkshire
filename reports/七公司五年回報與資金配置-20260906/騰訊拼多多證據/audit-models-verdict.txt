@@ -1,0 +1,37 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：/Users/linxuan/ai-berkshire/reports/七公司五年回報與資金配置-20260906/騰訊與拼多多五年底稿.md
+======================================================================
+
+  [92m✅ 通過[0m [12] 模型起點稀釋股份/ADS · PDD                   報告:        14.80 億
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 14.80 (偏差 0.00%)
+  [92m✅ 通過[0m [14] 2026正常化利潤基數 · PDD                    報告:       850.00 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 850.00 (偏差 0.00%)
+  [92m✅ 通過[0m [15] 對應正常化模型PE · 騰訊                       報告:        15.25 倍
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 15.25 (偏差 0.00%)
+  [92m✅ 通過[0m [18] 增值服務收入年增速／2031淨利率 · 樂觀               報告:         8.00 %
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 8.00 (偏差 0.00%)
+  [92m✅ 通過[0m [29] 2031歸母經濟利潤 · 樂觀                      報告:      3940.39 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 3940.39 (偏差 0.00%)
+  [92m✅ 通過[0m [32] 交易服務收入年增速／2031淨利率 · 悲觀               報告:        -2.00 %
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: -2.00 (偏差 0.00%)
+  [92m✅ 通過[0m [36] 常態稅後利息 · 基準                          報告:        80.00 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 80.00 (偏差 0.00%)
+  [92m✅ 通過[0m [55] 騰訊樂觀 · 退出PE                          報告:        22.00 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 22.00 (偏差 0.00%)
+  [92m✅ 通過[0m [70] PDD基準 · 2031稀釋股數，億股/億ADS             報告:        15.55 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 15.55 (偏差 0.00%)
+  [92m✅ 通過[0m [76] PDD樂觀 · 2031稀釋股數，億股/億ADS             報告:        15.17 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 15.17 (偏差 0.00%)
+  [92m✅ 通過[0m [82] 每年發行及股份激勵等增加 · 悲觀                    報告:         1.00 %
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 1.00 (偏差 0.00%)
+  [92m✅ 通過[0m [87] 起算每股股息／每年增速 · 悲觀                     報告:         4.00 
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 4.00 (偏差 0.00%)
+  [92m✅ 通過[0m [95] 五年逐年壓力校核中，分紅加回購最高佔現金 · 樂觀            報告:        84.49 %
+                                                    Model inputs and independently recalculated Decimal result; not external verification of a forecast: 84.49 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 13  |  通過: [92m13[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================

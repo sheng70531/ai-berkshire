@@ -1,0 +1,136 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/英偉達/英偉達商業模式與十年利潤研究-20260907.md
+總提取數據點：56  |  抽樣比例：15%  |  抽檢數量：9
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     17  收入 · FY2023                                269.74
+  8     18  GAAP淨利潤 · FY2024                           297.60
+  9     18  GAAP淨利潤 · FY2025                           728.80
+ 15     19  毛利率 · FY2026                                71.10  %
+ 18     20  經營現金流 · FY2024                             280.90
+ 16     20  經營現金流 · FY2022                              91.08
+ 41    147  其他收入（假設） · 基準                             1000.00
+ 48    149  常態淨利率（假設） · 樂觀                              45.00  %
+ 53    163  價值份額下降10個百分點至35% · 年度常態利潤（億美元）            3200.00
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "收入 · FY2023",
+    "reported_value": 269.74,
+    "unit": "",
+    "line_number": 17,
+    "raw_text": "| 收入 | 269.14 | 269.74 | 609.22 | 1,304.97 | 2,159.38 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 8,
+    "label": "GAAP淨利潤 · FY2024",
+    "reported_value": 297.6,
+    "unit": "",
+    "line_number": 18,
+    "raw_text": "| GAAP淨利潤 | 97.52 | 43.68 | 297.60 | 728.80 | 1,200.67 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 9,
+    "label": "GAAP淨利潤 · FY2025",
+    "reported_value": 728.8,
+    "unit": "",
+    "line_number": 18,
+    "raw_text": "| GAAP淨利潤 | 97.52 | 43.68 | 297.60 | 728.80 | 1,200.67 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "毛利率 · FY2026",
+    "reported_value": 71.1,
+    "unit": "%",
+    "line_number": 19,
+    "raw_text": "| 毛利率 | 64.9% | 56.9% | 72.7% | 75.0% | 71.1% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "經營現金流 · FY2024",
+    "reported_value": 280.9,
+    "unit": "",
+    "line_number": 20,
+    "raw_text": "| 經營現金流 | 91.08 | 56.41 | 280.90 | 640.89 | 1,027.18 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "經營現金流 · FY2022",
+    "reported_value": 91.08,
+    "unit": "",
+    "line_number": 20,
+    "raw_text": "| 經營現金流 | 91.08 | 56.41 | 280.90 | 640.89 | 1,027.18 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 41,
+    "label": "其他收入（假設） · 基準",
+    "reported_value": 1000.0,
+    "unit": "",
+    "line_number": 147,
+    "raw_text": "| 其他收入（假設） | 500 | 1,000 | 2,000 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 48,
+    "label": "常態淨利率（假設） · 樂觀",
+    "reported_value": 45.0,
+    "unit": "%",
+    "line_number": 149,
+    "raw_text": "| 常態淨利率（假設） | 25% | 40% | 45% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 53,
+    "label": "價值份額下降10個百分點至35% · 年度常態利潤（億美元）",
+    "reported_value": 3200.0,
+    "unit": "",
+    "line_number": 163,
+    "raw_text": "| 價值份額下降10個百分點至35% | 3,200 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

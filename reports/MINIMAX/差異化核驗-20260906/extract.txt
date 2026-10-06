@@ -1,0 +1,84 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/MINIMAX/MiniMax-差異化與護城河研究-20260906.md
+總提取數據點：5  |  抽樣比例：100%  |  抽檢數量：5
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  1     15  開放平臺及其他企業服務收入佔比 · 2026年上半年                  63.40  %
+  2     16  中國內地以外收入佔比 · 2026年上半年                       60.80  %
+  3     17  綜合毛利率 · 2026年上半年                            17.90  %
+  4     18  總收入同比增速 · 2026年上半年                         283.10  %
+  5     19  銷售及分銷費用同比變化 · 2026年上半年                     -17.90  %
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 1,
+    "label": "開放平臺及其他企業服務收入佔比 · 2026年上半年",
+    "reported_value": 63.4,
+    "unit": "%",
+    "line_number": 15,
+    "raw_text": "| 開放平臺及其他企業服務收入佔比 | 63.4% | 包含付費個人用戶、企業用戶及Token Plan，不能全部等同於大型企業合同收入 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 2,
+    "label": "中國內地以外收入佔比 · 2026年上半年",
+    "reported_value": 60.8,
+    "unit": "%",
+    "line_number": 16,
+    "raw_text": "| 中國內地以外收入佔比 | 60.8% | 已有全球商業化，但地域覆蓋不自動代表強品牌或高留存 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 3,
+    "label": "綜合毛利率 · 2026年上半年",
+    "reported_value": 17.9,
+    "unit": "%",
+    "line_number": 17,
+    "raw_text": "| 綜合毛利率 | 17.9% | 集團口徑，不能直接用來判斷某一個模型的盈利水平 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 4,
+    "label": "總收入同比增速 · 2026年上半年",
+    "reported_value": 283.1,
+    "unit": "%",
+    "line_number": 18,
+    "raw_text": "| 總收入同比增速 | +283.1% | 增長很快，仍需結合基數及收入結構變化解釋 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "銷售及分銷費用同比變化 · 2026年上半年",
+    "reported_value": -17.9,
+    "unit": "%",
+    "line_number": 19,
+    "raw_text": "| 銷售及分銷費用同比變化 | -17.9% | 增長對新增推廣費用的依賴有所降低，不等於每個應用都有強自然增長 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

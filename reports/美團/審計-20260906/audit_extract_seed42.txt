@@ -1,0 +1,214 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/美團/美團研究報告-20260906.md
+總提取數據點：100  |  抽樣比例：15%  |  抽檢數量：15
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     18  參考匯率（人民幣/港元） · 數值                            0.86  
+  5     19  TTM歸母淨利潤 · 數值                             -384.49  
+ 15     37  毛利 · 2024                                 1297.85  
+ 14     37  毛利 · 2023                                  971.91  
+ 12     37  毛利 · 2021                                  424.74  
+ 18     38  歸母淨利潤 · 2022                               -66.86  
+ 29     40  資本支出 · 2023                                 68.80  
+ 36     41  現金及短期投資 · 2025                            1668.34  
+ 32     41  現金及短期投資 · 2021                            1167.95  
+ 55     74  兩項合計 · 數值                                 1683.14  
+ 70    104  新業務經營虧損 · 悲觀                                80.00  
+ 76    106  歸屬股東稅後經營收益 · 基準                            240.17  
+ 82    108  三年累計股東現金流 · 樂觀                             700.00  
+ 87    110  戰略投資估值 · 基準                                300.00  
+ 95    114  今日價值（10%折現，港元） · 悲觀                          4.57  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "參考匯率（人民幣/港元） · 數值",
+    "reported_value": 0.86458,
+    "unit": "",
+    "line_number": 18,
+    "raw_text": "| 參考匯率（人民幣/港元） | 0.86458 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "TTM歸母淨利潤 · 數值",
+    "reported_value": -384.49146,
+    "unit": "",
+    "line_number": 19,
+    "raw_text": "| TTM歸母淨利潤 | -384.49146 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "毛利 · 2024",
+    "reported_value": 1297.85,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 424.74 | 617.53 | 971.91 | 1297.85 | 1110.09 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "毛利 · 2023",
+    "reported_value": 971.91,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 424.74 | 617.53 | 971.91 | 1297.85 | 1110.09 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "毛利 · 2021",
+    "reported_value": 424.74,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 424.74 | 617.53 | 971.91 | 1297.85 | 1110.09 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "歸母淨利潤 · 2022",
+    "reported_value": -66.86,
+    "unit": "",
+    "line_number": 38,
+    "raw_text": "| 歸母淨利潤 | -235.38 | -66.86 | 138.56 | 358.07 | -233.55 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 29,
+    "label": "資本支出 · 2023",
+    "reported_value": 68.8,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 資本支出 | 90.10 | 57.31 | 68.80 | 109.99 | 132.71 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 36,
+    "label": "現金及短期投資 · 2025",
+    "reported_value": 1668.34,
+    "unit": "",
+    "line_number": 41,
+    "raw_text": "| 現金及短期投資 | 1167.95 | 1120.32 | 1451.60 | 1682.43 | 1668.34 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 32,
+    "label": "現金及短期投資 · 2021",
+    "reported_value": 1167.95,
+    "unit": "",
+    "line_number": 41,
+    "raw_text": "| 現金及短期投資 | 1167.95 | 1120.32 | 1451.60 | 1682.43 | 1668.34 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 55,
+    "label": "兩項合計 · 數值",
+    "reported_value": 1683.1417,
+    "unit": "",
+    "line_number": 74,
+    "raw_text": "| 兩項合計 | 1683.14170 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 70,
+    "label": "新業務經營虧損 · 悲觀",
+    "reported_value": 80.0,
+    "unit": "",
+    "line_number": 104,
+    "raw_text": "| 新業務經營虧損 | 80 | 30 | 0 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 76,
+    "label": "歸屬股東稅後經營收益 · 基準",
+    "reported_value": 240.17,
+    "unit": "",
+    "line_number": 106,
+    "raw_text": "| 歸屬股東稅後經營收益 | -15.23 | 240.17 | 432.66 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "三年累計股東現金流 · 樂觀",
+    "reported_value": 700.0,
+    "unit": "",
+    "line_number": 108,
+    "raw_text": "| 三年累計股東現金流 | -200 | 300 | 700 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 87,
+    "label": "戰略投資估值 · 基準",
+    "reported_value": 300.0,
+    "unit": "",
+    "line_number": 110,
+    "raw_text": "| 戰略投資估值 | 150 | 300 | 500 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 95,
+    "label": "今日價值（10%折現，港元） · 悲觀",
+    "reported_value": 4.57,
+    "unit": "",
+    "line_number": 114,
+    "raw_text": "| 今日價值（10%折現，港元） | 4.57 | 67.79 | 143.93 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

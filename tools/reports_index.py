@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""扫描 reports/ 生成研究索引。
+"""掃描 reports/ 生成研究索引。
 
-产出两份文件：
-  reports/index.json  —— 机器可读清单，供脚本/网页消费
-  reports/README.md   —— 人读索引，GitHub 上的报告入口
+產出兩份文件：
+  reports/index.json  —— 機器可讀清單，供腳本/網頁消費
+  reports/README.md   —— 人讀索引，GitHub 上的報告入口
 
-元数据来源优先级：文件自带 YAML front-matter > 文件名 > 正文 > git 提交时间。
-不修改任何报告文件本身。
+元數據來源優先級：文件自帶 YAML front-matter > 文件名 > 正文 > git 提交時間。
+不修改任何報告文件本身。
 
 用法：
   python3 tools/reports_index.py            # 生成索引
-  python3 tools/reports_index.py --check     # 只检查是否需要更新（CI 用，不写盘）
+  python3 tools/reports_index.py --check     # 只檢查是否需要更新（CI 用，不寫盤）
 """
 import json
 import os
@@ -27,16 +27,16 @@ DATE_IN_NAME = re.compile(r"(20[2-3]\d)(0[1-9]|1[0-2])(0[1-9]|[12]\d|3[01])")
 DATE_IN_BODY = re.compile(r"(20[2-3]\d)[-/年](\d{1,2})[-/月](\d{1,2})")
 H1 = re.compile(r"^#\s+(.+?)\s*$")
 
-# 报告类型：按顺序匹配，先命中先算
+# 報告類型：按順序匹配，先命中先算
 TYPE_RULES = [
-    ("底稿", ["研究底稿", "审计", "核验", "复核", "评审", "check", "verify", "底稿", "对账"]),
-    ("财报", ["earnings", "财报", "中报", "年报", "季报", "业绩", "电话会", "q1", "q2", "q3", "q4"]),
-    ("公众号", ["公众号", "wechat", "推文"]),
+    ("底稿", ["研究底稿", "審計", "核驗", "複核", "評審", "check", "verify", "底稿", "對賬"]),
+    ("財報", ["earnings", "財報", "中報", "年報", "季報", "業績", "電話會", "q1", "q2", "q3", "q4"]),
+    ("公眾號", ["公眾號", "wechat", "推文"]),
     ("深度系列", ["看懂", "深度研究", "deep-dive", "深度投研"]),
-    ("横评对比", ["横评", "对比", "vs", "对决", "pk", "换仓", "轮动"]),
-    ("组织管理", ["7s", "管理层", "组织", "management"]),
-    ("估值仓位", ["估值", "赔率", "凯利", "仓位", "valuation", "fair_value", "终值"]),
-    ("筛选", ["funnel", "筛选", "召回", "screen", "候选池"]),
+    ("橫評對比", ["橫評", "對比", "vs", "對決", "pk", "換倉", "輪動"]),
+    ("組織管理", ["7s", "管理層", "組織", "management"]),
+    ("估值倉位", ["估值", "賠率", "凱利", "倉位", "valuation", "fair_value", "終值"]),
+    ("篩選", ["funnel", "篩選", "召回", "screen", "候選池"]),
 ]
 
 
@@ -46,7 +46,7 @@ def load_config():
 
 
 def git_ignored(paths):
-    """返回被 .gitignore 命中的文件集合，避免把本地私有文件写进公开索引。"""
+    """返回被 .gitignore 命中的文件集合，避免把本地私有文件寫進公開索引。"""
     if not paths:
         return set()
     try:
@@ -60,7 +60,7 @@ def git_ignored(paths):
 
 
 def git_dates():
-    """一次遍历拿到每个文件的最近提交日期。"""
+    """一次遍歷拿到每個文件的最近提交日期。"""
     out = {}
     try:
         raw = subprocess.check_output(
@@ -79,7 +79,7 @@ def git_dates():
 
 
 def parse_front_matter(lines):
-    """极简 YAML front-matter 解析，只认首行 --- 到次个 --- 之间的 key: value。"""
+    """極簡 YAML front-matter 解析，只認首行 --- 到次個 --- 之間的 key: value。"""
     if not lines or lines[0].strip() != "---":
         return {}, 0
     meta = {}
@@ -134,11 +134,11 @@ def guess_date(meta, filename, parent, head, gitmap, relpath):
 def bucket_of(top, cfg):
     top = cfg["aliases"].get(top, top)
     if top in cfg["screens"]:
-        return "筛选池", top
+        return "篩選池", top
     if top in cfg["themes"]:
-        return "专题", top
+        return "專題", top
     if top in cfg["masters"]:
-        return "大师研究", top
+        return "大師研究", top
     if top in cfg["other"]:
         return "其他", top
     return "公司", top
@@ -177,7 +177,7 @@ def collect(cfg, gitmap):
                 if bucket == "公司" and top not in known and top not in cfg["aliases"]:
                     unknown_dirs.add(top)
             else:
-                bucket, group = "专题", "综合与横评"
+                bucket, group = "專題", "綜合與橫評"
 
             date, dsrc = guess_date(meta, fn, parts[-2] if len(parts) > 1 else "", head, gitmap, rel)
             series = parts[1] if len(parts) > 2 else ""
@@ -209,7 +209,7 @@ UNSAFE = {"%": "%25", " ": "%20", "(": "%28", ")": "%29", "#": "%23", "?": "%3F"
 
 
 def url_path(path):
-    """只转义会破坏 Markdown 链接的字符，中文保持原样以便肉眼核对。"""
+    """只轉義會破壞 Markdown 鏈接的字符，中文保持原樣以便肉眼核對。"""
     return "".join(UNSAFE.get(c, c) for c in path)
 
 
@@ -225,28 +225,28 @@ def render(items, cfg):
 
     latest = max((i["date"] for i in items if i["date"]), default="")
     L = []
-    L.append("# 研究报告索引")
+    L.append("# 研究報告索引")
     L.append("")
-    L.append("> 本文件由 `tools/reports_index.py` 自动生成，请勿手工编辑。")
-    L.append("> 新增报告后运行 `python3 tools/reports_index.py` 重新生成。")
+    L.append("> 本文件由 `tools/reports_index.py` 自動生成，請勿手工編輯。")
+    L.append("> 新增報告後運行 `python3 tools/reports_index.py` 重新生成。")
     L.append("")
-    L.append("**%d 份报告** · **%d 家公司** · **%d 个专题** · 最近更新 %s" % (
-        len(items), len(by_bucket["公司"]), len(by_bucket["专题"]), latest or "—"))
+    L.append("**%d 份報告** · **%d 家公司** · **%d 個專題** · 最近更新 %s" % (
+        len(items), len(by_bucket["公司"]), len(by_bucket["專題"]), latest or "—"))
     L.append("")
-    L.append("[最近更新](#最近更新) · [按公司](#按公司) · [专题研究](#专题研究) · "
-             "[大师研究](#大师研究) · [筛选池](#筛选池)")
+    L.append("[最近更新](#最近更新) · [按公司](#按公司) · [專題研究](#專題研究) · "
+             "[大師研究](#大師研究) · [篩選池](#篩選池)")
     L.append("")
     L.append("---")
     L.append("")
 
     L.append("## 最近更新")
     L.append("")
-    L.append("| 日期 | 报告 | 归属 | 类型 |")
+    L.append("| 日期 | 報告 | 歸屬 | 類型 |")
     L.append("|------|------|------|------|")
     seen = defaultdict(int)
     shown = []
     for it in items:
-        if it["bucket"] == "筛选池" or it["type"] == "底稿":
+        if it["bucket"] == "篩選池" or it["type"] == "底稿":
             continue
         key = it["group"] + "/" + (it["series"] or "")
         if seen[key] >= 3:
@@ -298,16 +298,16 @@ def render(items, cfg):
         L.append("")
 
     section("按公司", "公司")
-    section("专题研究", "专题")
-    section("大师研究", "大师研究")
+    section("專題研究", "專題")
+    section("大師研究", "大師研究")
 
-    screens = by_bucket.get("筛选池", {})
+    screens = by_bucket.get("篩選池", {})
     if screens:
-        L.append("## 筛选池")
+        L.append("## 篩選池")
         L.append("")
-        L.append("> 以下是筛选与推演的**中间产物**，不是成品报告，供复现与追溯用。")
+        L.append("> 以下是篩選與推演的**中間產物**，不是成品報告，供復現與追溯用。")
         L.append("")
-        L.append("| 池子 | 文件数 | 最近更新 |")
+        L.append("| 池子 | 文件數 | 最近更新 |")
         L.append("|------|--------|----------|")
         for name, lst in sorted(screens.items(), key=lambda kv: -len(kv[1])):
             last = max((x["date"] for x in lst if x["date"]), default="—")
@@ -317,30 +317,31 @@ def render(items, cfg):
     return "\n".join(L) + "\n"
 
 
-ROOT_README = os.path.join(ROOT, "README.md")
-MARK_START = "<!-- REPORTS-INDEX:START 由 tools/reports_index.py 自动更新，勿手改 -->"
+# 含自動索引入口的根目錄 README。
+ROOT_README_NAMES = ("README.md",)
+MARK_START = "<!-- REPORTS-INDEX:START 由 tools/reports_index.py 自動更新，勿手改 -->"
 MARK_END = "<!-- REPORTS-INDEX:END -->"
-BANNER_START = "<!-- REPORTS-BANNER:START 由 tools/reports_index.py 自动更新，勿手改 -->"
+BANNER_START = "<!-- REPORTS-BANNER:START 由 tools/reports_index.py 自動更新，勿手改 -->"
 BANNER_END = "<!-- REPORTS-BANNER:END -->"
 
 
 def index_stats(items):
     groups = defaultdict(set)
     for it in items:
-        if it["bucket"] != "筛选池":
+        if it["bucket"] != "篩選池":
             groups[it["bucket"]].add(it["group"])
     latest = max((i["date"] for i in items if i["date"]), default="—")
-    return len(items), len(groups["公司"]), len(groups["专题"]), latest
+    return len(items), len(groups["公司"]), len(groups["專題"]), latest
 
 
 def root_banner_block(items):
-    """首屏横幅：仓库日更内容的入口，位置在标题区，不在正文深处。"""
+    """首屏橫幅：倉庫日更內容的入口，位置在標題區，不在正文深處。"""
     total, companies, themes, latest = index_stats(items)
     return "\n".join([
         BANNER_START,
         "",
-        "> 📊 **日更内容是研究报告，全部在 [研究报告索引](reports/README.md)。** "
-        "%d 份报告 · %d 家公司 · %d 个专题，按公司与专题分组，更新至 %s。"
+        "> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** "
+        "%d 份報告 · %d 家公司 · %d 個專題，按公司與專題分組，更新至 %s。"
         % (total, companies, themes, latest),
         "",
         BANNER_END,
@@ -348,17 +349,17 @@ def root_banner_block(items):
 
 
 def root_readme_block(items):
-    """生成根 README 里的『研究索引』入口块。"""
+    """生成根 README 裡的『研究索引』入口塊。"""
     total, companies, themes, latest = index_stats(items)
-    fresh = [i for i in items if i["bucket"] != "筛选池" and i["type"] != "底稿"][:8]
+    fresh = [i for i in items if i["bucket"] != "篩選池" and i["type"] != "底稿"][:8]
 
     L = [MARK_START, ""]
-    L.append("**📊 [全部研究索引 →](reports/README.md)** ｜ %d 份报告 · %d 家公司 · %d 个专题 · 更新至 %s"
+    L.append("**📊 [全部研究索引 →](reports/README.md)** ｜ %d 份報告 · %d 家公司 · %d 個專題 · 更新至 %s"
              % (total, companies, themes, latest))
     L.append("")
     L.append("最近更新：")
     L.append("")
-    L.append("| 日期 | 报告 | 归属 |")
+    L.append("| 日期 | 報告 | 歸屬 |")
     L.append("|------|------|------|")
     seen = defaultdict(int)
     rows = 0
@@ -378,10 +379,21 @@ def root_readme_block(items):
     return "\n".join(L)
 
 
-def update_root_readme(items):
-    if not os.path.exists(ROOT_README):
-        return None, None
-    old = open(ROOT_README, encoding="utf-8").read()
+def marked_readmes():
+    """根目錄裡帶索引入口標記的 README。沒有該檔或沒有標記就跳過。"""
+    found = []
+    for name in ROOT_README_NAMES:
+        path = os.path.join(ROOT, name)
+        if not os.path.exists(path):
+            continue
+        text = open(path, encoding="utf-8").read()
+        if BANNER_START in text or MARK_START in text:
+            found.append(path)
+    return found
+
+
+def update_marked_readme(path, items):
+    old = open(path, encoding="utf-8").read()
     new = old
     for start, end, builder in (
         (BANNER_START, BANNER_END, root_banner_block),
@@ -405,19 +417,18 @@ def main():
         {"count": len(items), "reports": items},
         ensure_ascii=False, indent=2) + "\n"
     readme = render(items, cfg)
-    root_old, root_new = update_root_readme(items)
+    root_updates = [(p, *update_marked_readme(p, items)) for p in marked_readmes()]
 
     if check:
         stale = []
         pairs = [(index_path, payload), (readme_path, readme)]
-        if root_old is not None:
-            pairs.append((ROOT_README, root_new))
+        pairs.extend((path, new) for path, old, new in root_updates)
         for p, new in pairs:
             old = open(p, encoding="utf-8").read() if os.path.exists(p) else ""
             if old != new:
                 stale.append(os.path.basename(p))
         if stale:
-            print("索引已过期，请运行 python3 tools/reports_index.py：" + "、".join(stale))
+            print("索引已過期，請運行 python3 tools/reports_index.py：" + "、".join(stale))
             return 1
         print("索引是最新的")
         return 0
@@ -426,19 +437,23 @@ def main():
         f.write(payload)
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme)
-    if root_new is not None and root_new != root_old:
-        with open(ROOT_README, "w", encoding="utf-8") as f:
-            f.write(root_new)
-        print("已刷新根 README 的研究索引入口块")
+    refreshed = []
+    for path, old, new in root_updates:
+        if new != old:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(new)
+            refreshed.append(os.path.basename(path))
+    if refreshed:
+        print("已刷新研究索引入口塊：" + "、".join(refreshed))
 
     missing = [i for i in items if not i["date"]]
-    print("已索引 %d 份报告 -> reports/README.md、reports/index.json" % len(items))
+    print("已索引 %d 份報告 -> reports/README.md、reports/index.json" % len(items))
     if missing:
-        print("  无法确定日期：%d 份" % len(missing))
+        print("  無法確定日期：%d 份" % len(missing))
     if ignored:
-        print("  已按 .gitignore 排除（不进公开索引）：%d 份" % len(ignored))
+        print("  已按 .gitignore 排除（不進公開索引）：%d 份" % len(ignored))
     if unknown:
-        print("  未在 config.json 的 companies 名单里的新目录（默认按公司处理）：%s" % "、".join(unknown))
+        print("  未在 config.json 的 companies 名單裡的新目錄（默認按公司處理）：%s" % "、".join(unknown))
     return 0
 
 

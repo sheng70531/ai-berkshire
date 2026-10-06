@@ -1,0 +1,240 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/快手/快手研究報告-20260906.md
+總提取數據點：110  |  抽樣比例：15%  |  抽檢數量：17
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     18  估值參考匯率（人民幣/港元） · 數值                          0.86  
+  5     19  TTM歸母淨利潤 · 數值                              157.66  
+ 15     37  毛利 · 2024                                  692.92  
+ 14     37  毛利 · 2023                                  573.91  
+ 12     37  毛利 · 2021                                  340.30  
+ 18     38  歸母淨利潤 · 2022                              -136.90  
+ 29     40  資本支出 · 2023                                 48.97  
+ 28     40  資本支出 · 2022                                 51.00  
+ 30     40  資本支出 · 2024                                 80.63  
+ 36     41  現金及短期投資 · 2025                             622.56  
+ 32     41  現金及短期投資 · 2021                             454.57  
+ 55     66  流動公允價值損益金融資產 · 億元                          563.53  
+ 70    102  傳統稅後經營收益 · 樂觀                              192.73  
+ 76    104  可靈收入 · 樂觀                                  160.00  
+ 82    106  快手可靈權益 · 樂觀                                 55.00  %
+ 87    108  三年傳統股東現金流 · 基準                             300.00  
+ 95    111  三年末目標價（港元） · 悲觀                             20.95  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "估值參考匯率（人民幣/港元） · 數值",
+    "reported_value": 0.86458,
+    "unit": "",
+    "line_number": 18,
+    "raw_text": "| 估值參考匯率（人民幣/港元） | 0.86458 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "TTM歸母淨利潤 · 數值",
+    "reported_value": 157.66,
+    "unit": "",
+    "line_number": 19,
+    "raw_text": "| TTM歸母淨利潤 | 157.66 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "毛利 · 2024",
+    "reported_value": 692.92,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 340.30 | 421.31 | 573.91 | 692.92 | 785.49 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "毛利 · 2023",
+    "reported_value": 573.91,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 340.30 | 421.31 | 573.91 | 692.92 | 785.49 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "毛利 · 2021",
+    "reported_value": 340.3,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 毛利 | 340.30 | 421.31 | 573.91 | 692.92 | 785.49 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "歸母淨利潤 · 2022",
+    "reported_value": -136.9,
+    "unit": "",
+    "line_number": 38,
+    "raw_text": "| 歸母淨利潤 | -780.74 | -136.90 | 63.96 | 153.35 | 186.17 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 29,
+    "label": "資本支出 · 2023",
+    "reported_value": 48.97,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 資本支出 | 77.64 | 51.00 | 48.97 | 80.63 | 149.42 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 28,
+    "label": "資本支出 · 2022",
+    "reported_value": 51.0,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 資本支出 | 77.64 | 51.00 | 48.97 | 80.63 | 149.42 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 30,
+    "label": "資本支出 · 2024",
+    "reported_value": 80.63,
+    "unit": "",
+    "line_number": 40,
+    "raw_text": "| 資本支出 | 77.64 | 51.00 | 48.97 | 80.63 | 149.42 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 36,
+    "label": "現金及短期投資 · 2025",
+    "reported_value": 622.56,
+    "unit": "",
+    "line_number": 41,
+    "raw_text": "| 現金及短期投資 | 454.57 | 356.20 | 490.18 | 516.40 | 622.56 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 32,
+    "label": "現金及短期投資 · 2021",
+    "reported_value": 454.57,
+    "unit": "",
+    "line_number": 41,
+    "raw_text": "| 現金及短期投資 | 454.57 | 356.20 | 490.18 | 516.40 | 622.56 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 55,
+    "label": "流動公允價值損益金融資產 · 億元",
+    "reported_value": 563.53,
+    "unit": "",
+    "line_number": 66,
+    "raw_text": "| 流動公允價值損益金融資產 | 563.53 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 70,
+    "label": "傳統稅後經營收益 · 樂觀",
+    "reported_value": 192.73,
+    "unit": "",
+    "line_number": 102,
+    "raw_text": "| 傳統稅後經營收益 | 78.00 | 139.87 | 192.73 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 76,
+    "label": "可靈收入 · 樂觀",
+    "reported_value": 160.0,
+    "unit": "",
+    "line_number": 104,
+    "raw_text": "| 可靈收入 | 50 | 100 | 160 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "快手可靈權益 · 樂觀",
+    "reported_value": 55.0,
+    "unit": "%",
+    "line_number": 106,
+    "raw_text": "| 快手可靈權益 | 65% | 60% | 55% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 87,
+    "label": "三年傳統股東現金流 · 基準",
+    "reported_value": 300.0,
+    "unit": "",
+    "line_number": 108,
+    "raw_text": "| 三年傳統股東現金流 | 180 | 300 | 450 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 95,
+    "label": "三年末目標價（港元） · 悲觀",
+    "reported_value": 20.95,
+    "unit": "",
+    "line_number": 111,
+    "raw_text": "| 三年末目標價（港元） | 20.95 | 63.08 | 106.93 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

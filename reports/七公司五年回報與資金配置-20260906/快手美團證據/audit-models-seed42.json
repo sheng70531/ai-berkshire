@@ -1,0 +1,122 @@
+[
+  {
+    "id": 14,
+    "label": "傳統業務稅後可持續利潤率 · 樂觀",
+    "reported_value": 14.0,
+    "unit": "%",
+    "line_number": 29,
+    "raw_text": "| 傳統業務稅後可持續利潤率 | 7% | 12% | 14% |",
+    "fetched_value": 14,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 14,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 12,
+    "label": "傳統業務稅後可持續利潤率 · 保守",
+    "reported_value": 7.0,
+    "unit": "%",
+    "line_number": 29,
+    "raw_text": "| 傳統業務稅後可持續利潤率 | 7% | 12% | 14% |",
+    "fetched_value": 7,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 7,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 15,
+    "label": "可靈收入 · 保守",
+    "reported_value": 40.0,
+    "unit": "",
+    "line_number": 30,
+    "raw_text": "| 可靈收入 | 40 | 120 | 250 |",
+    "fetched_value": 40,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 40,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 18,
+    "label": "可靈稅後可持續利潤率 · 保守",
+    "reported_value": -20.0,
+    "unit": "%",
+    "line_number": 31,
+    "raw_text": "| 可靈稅後可持續利潤率 | -20% | 10% | 20% |",
+    "fetched_value": -20,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": -20,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 29,
+    "label": "稅後歸母可持續利潤 · 樂觀",
+    "reported_value": 288.5,
+    "unit": "",
+    "line_number": 34,
+    "raw_text": "| 稅後歸母可持續利潤 | **58.8** | **175.8** | **288.5** |",
+    "fetched_value": 288.5,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 288.5,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 32,
+    "label": "退出整體PE · 樂觀",
+    "reported_value": 16.0,
+    "unit": "倍",
+    "line_number": 35,
+    "raw_text": "| 退出整體PE | 8倍 | 12倍 | 16倍 |",
+    "fetched_value": 16,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 16,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 36,
+    "label": "每年股息，港元/股 · 基準",
+    "reported_value": 0.8,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| 每年股息，港元/股 | 0.3 | 0.8 | 1.2 |",
+    "fetched_value": 0.8,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 0.8,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 55,
+    "label": "總部及持續股份薪酬等費用 · 樂觀",
+    "reported_value": -140.0,
+    "unit": "",
+    "line_number": 56,
+    "raw_text": "| 總部及持續股份薪酬等費用 | -120 | -130 | -140 |",
+    "fetched_value": -140,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": -140,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 68,
+    "label": "每年淨股本變化 · 基準",
+    "reported_value": 0.5,
+    "unit": "%",
+    "line_number": 61,
+    "raw_text": "| 每年淨股本變化 | +1.5% | +0.5% | 0% |",
+    "fetched_value": 0.5,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 0.5,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  },
+  {
+    "id": 74,
+    "label": "五年終值財富等效年化 · 樂觀",
+    "reported_value": 20.4,
+    "unit": "%",
+    "line_number": 64,
+    "raw_text": "| 五年終值財富等效年化 | **-35.2%** | **-0.8%** | **20.4%** |",
+    "fetched_value": 20.420842582806753,
+    "fetched_source": "Model input or 48-digit Decimal reproduction; not external evidence of future outcome",
+    "fetched_value2": 20.420842582806753,
+    "fetched_source2": "financial-rigor.txt formula or declared model input transcription; not a second historical source"
+  }
+]

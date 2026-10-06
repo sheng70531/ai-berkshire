@@ -1,0 +1,29 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：六公司研究彙總-20260906.md
+======================================================================
+
+  [92m✅ 通過[0m [ 2] [騰訊](騰訊/騰訊研究報告-20260906.md) · 悲觀退出價  報告:       270.20 
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 270.20 (偏差 0.00%)
+  [92m✅ 通過[0m [ 8] [PDD](拼多多/拼多多研究報告-20260906.md) · 基準  報告:       117.70 
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 117.70 (偏差 0.00%)
+  [92m✅ 通過[0m [ 9] [PDD](拼多多/拼多多研究報告-20260906.md) · 樂觀  報告:       190.45 
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 190.45 (偏差 0.00%)
+  [92m✅ 通過[0m [ 7] [PDD](拼多多/拼多多研究報告-20260906.md) · 悲觀  報告:        49.41 
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 49.41 (偏差 0.00%)
+  [92m✅ 通過[0m [15] [快手](快手/快手研究報告-20260906.md) · 基準等效年  報告:        24.30 %
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 24.26 (偏差 0.16%)
+  [92m✅ 通過[0m [18] [美團](美團/美團研究報告-20260906.md) · 基準退出價  報告:        90.23 
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 90.23 (偏差 0.00%)
+  [92m✅ 通過[0m [16] [美團](美團/美團研究報告-20260906.md) · 正規收盤價  報告:        81.75 
+                                                    Tencent quote regular close 2026-09-04; market-snapshot.json: 81.75 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/3690/history/: 81.75 (偏差 0.00%)
+  [92m✅ 通過[0m [41] PDD · 原三年基準年化                        報告:        12.70 %
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: 12.71 (偏差 0.04%)
+  [92m✅ 通過[0m [48] 美團 · 退出價值低20%的三年年化                   報告:        -4.10 %
+                                                    Independent Decimal calculation and financial_rigor logs; comparison-results.json / comparison-financial-rigor.txt: -4.06 (偏差 0.92%)
+
+----------------------------------------------------------------------
+  抽檢總數: 9  |  通過: [92m9[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 55,
+    "label": "正常化年度利潤，億元 · 本報告口徑",
+    "reported_value": 112.0,
+    "unit": "",
+    "line_number": 169,
+    "raw_text": "| 正常化年度利潤，億元 | 112 | 本報告情景基點，非公司指引 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "verification_type": "model_input_not_observed_fact",
+    "model_input": 112,
+    "note": "僅核對模型參數定義；不填寫fetched，不聲稱未來事實已核實"
+  },
+  {
+    "id": 70,
+    "label": "悲觀 · 退出PE",
+    "reported_value": 10.0,
+    "unit": "倍",
+    "line_number": 197,
+    "raw_text": "| 悲觀 | -15% | 68.78 | 10倍 | 海外及老IP繼續回落，庫存和低店效侵蝕利潤，新品不能充分抵消 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "verification_type": "model_input_not_observed_fact",
+    "model_input": 10,
+    "note": "僅核對模型參數定義；不填寫fetched，不聲稱未來事實已核實"
+  },
+  {
+    "id": 76,
+    "label": "樂觀 · 退出PE",
+    "reported_value": 22.0,
+    "unit": "倍",
+    "line_number": 199,
+    "raw_text": "| 樂觀 | +20% | 193.54 | 22倍 | 多IP和海外復購得到驗證，渠道效率恢復，非單款重演熱潮 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": "",
+    "verification_type": "model_input_not_observed_fact",
+    "model_input": 22,
+    "note": "僅核對模型參數定義；不填寫fetched，不聲稱未來事實已核實"
+  }
+]

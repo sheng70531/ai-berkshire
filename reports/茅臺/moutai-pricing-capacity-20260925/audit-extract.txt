@@ -1,0 +1,136 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/茅臺/貴州茅臺-年提價5%與基酒產能-2036利潤補充-20260925.md
+總提取數據點：59  |  抽樣比例：15%  |  抽檢數量：9
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  2     18  Hermès 2024年 · 調價或價格貢獻                       8.00  %
+  8     26  Birkin 25／美國（美元） · 十年複合漲幅，本文計算               3.69  %
+  9     27  Birkin 25／歐洲（歐元） · 2016年價格                5900.00  
+ 16     29  Birkin 30／歐洲（歐元） · 2026年價格               10600.00  
+ 15     29  Birkin 30／歐洲（歐元） · 2016年價格                7000.00  
+ 18     43  2024年實際基酒產量，噸 · 茅臺酒                      56271.99  
+ 56     82  主情景系列酒2036噸價                                65.00  
+ 41    101  茅臺酒銷售6.0萬噸 · 2036歸母淨利潤，億元                 1669.64  
+ 48    105  茅臺酒銷售7.2萬噸 · 2036營業收入，億元                  4017.28  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 2,
+    "label": "Hermès 2024年 · 調價或價格貢獻",
+    "reported_value": 8.0,
+    "unit": "%",
+    "line_number": 18,
+    "raw_text": "| Hermès 2024年 | 約8%—9% | 同次業績會管理層討論的調價安排 [S1] |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 8,
+    "label": "Birkin 25／美國（美元） · 十年複合漲幅，本文計算",
+    "reported_value": 3.69,
+    "unit": "%",
+    "line_number": 26,
+    "raw_text": "| Birkin 25／美國（美元） | 9,400 | 13,500 | 3.69% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 9,
+    "label": "Birkin 25／歐洲（歐元） · 2016年價格",
+    "reported_value": 5900.0,
+    "unit": "",
+    "line_number": 27,
+    "raw_text": "| Birkin 25／歐洲（歐元） | 5,900 | 9,600 | 4.99% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 16,
+    "label": "Birkin 30／歐洲（歐元） · 2026年價格",
+    "reported_value": 10600.0,
+    "unit": "",
+    "line_number": 29,
+    "raw_text": "| Birkin 30／歐洲（歐元） | 7,000 | 10,600 | 4.24% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "Birkin 30／歐洲（歐元） · 2016年價格",
+    "reported_value": 7000.0,
+    "unit": "",
+    "line_number": 29,
+    "raw_text": "| Birkin 30／歐洲（歐元） | 7,000 | 10,600 | 4.24% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "2024年實際基酒產量，噸 · 茅臺酒",
+    "reported_value": 56271.99,
+    "unit": "",
+    "line_number": 43,
+    "raw_text": "| 2024年實際基酒產量，噸 | 56,271.99 | 48,112.51 | 年度產出，不是成品銷量 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 56,
+    "label": "主情景系列酒2036噸價",
+    "reported_value": 65.0,
+    "unit": "",
+    "line_number": 82,
+    "raw_text": "- 主情景系列酒2036噸價：65萬元／噸，沿用原設定；銷量從原4萬噸改為5.5萬噸。",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 41,
+    "label": "茅臺酒銷售6.0萬噸 · 2036歸母淨利潤，億元",
+    "reported_value": 1669.64,
+    "unit": "",
+    "line_number": 101,
+    "raw_text": "| 茅臺酒銷售6.0萬噸 | 3,407.42 | 1,669.64 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 48,
+    "label": "茅臺酒銷售7.2萬噸 · 2036營業收入，億元",
+    "reported_value": 4017.28,
+    "unit": "",
+    "line_number": 105,
+    "raw_text": "| 茅臺酒銷售7.2萬噸 | 4,017.28 | 1,968.47 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

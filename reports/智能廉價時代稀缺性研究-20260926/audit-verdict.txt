@@ -1,0 +1,96 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：reports/智能廉價時代稀缺性研究-20260926/README.md
+======================================================================
+
+  ✅ 通過 [ 1] 一成 · 新總成本佔原成本                        報告:        90.01 %
+                                                    calculations.json / total_cost / 0 / new_total_cost_pct: 90.01 (偏差 0.00%)
+  ✅ 通過 [ 2] 一成 · 總成本降幅                           報告:         9.99 %
+                                                    calculations.json / total_cost / 0 / cost_reduction_pct: 9.99 (偏差 0.00%)
+  ✅ 通過 [ 3] 一成 · 同樣預算可購買的完整交付量                   報告:         1.11 倍
+                                                    calculations.json / total_cost / 0 / purchasing_power_multiple: 1.11 (偏差 0.00%)
+  ✅ 通過 [ 4] 一半 · 新總成本佔原成本                        報告:        50.05 %
+                                                    calculations.json / total_cost / 1 / new_total_cost_pct: 50.05 (偏差 0.00%)
+  ✅ 通過 [ 5] 一半 · 總成本降幅                           報告:        49.95 %
+                                                    calculations.json / total_cost / 1 / cost_reduction_pct: 49.95 (偏差 0.00%)
+  ✅ 通過 [ 6] 一半 · 同樣預算可購買的完整交付量                   報告:         2.00 倍
+                                                    calculations.json / total_cost / 1 / purchasing_power_multiple: 2.00 (偏差 0.00%)
+  ✅ 通過 [ 7] 九成 · 新總成本佔原成本                        報告:        10.09 %
+                                                    calculations.json / total_cost / 2 / new_total_cost_pct: 10.09 (偏差 0.00%)
+  ✅ 通過 [ 8] 九成 · 總成本降幅                           報告:        89.91 %
+                                                    calculations.json / total_cost / 2 / cost_reduction_pct: 89.91 (偏差 0.00%)
+  ✅ 通過 [ 9] 九成 · 同樣預算可購買的完整交付量                   報告:         9.91 倍
+                                                    calculations.json / total_cost / 2 / purchasing_power_multiple: 9.91 (偏差 0.00%)
+  ✅ 通過 [10] 九成九 · 新總成本佔原成本                       報告:         1.10 %
+                                                    calculations.json / total_cost / 3 / new_total_cost_pct: 1.10 (偏差 0.00%)
+  ✅ 通過 [11] 九成九 · 總成本降幅                          報告:        98.90 %
+                                                    calculations.json / total_cost / 3 / cost_reduction_pct: 98.90 (偏差 0.00%)
+  ✅ 通過 [12] 九成九 · 同樣預算可購買的完整交付量                  報告:        90.99 倍
+                                                    calculations.json / total_cost / 3 / purchasing_power_multiple: 90.99 (偏差 0.00%)
+  ✅ 通過 [13] 九成九九 · 新總成本佔原成本                      報告:         0.20 %
+                                                    calculations.json / total_cost / 4 / new_total_cost_pct: 0.20 (偏差 0.00%)
+  ✅ 通過 [14] 九成九九 · 總成本降幅                         報告:        99.80 %
+                                                    calculations.json / total_cost / 4 / cost_reduction_pct: 99.80 (偏差 0.00%)
+  ✅ 通過 [15] 九成九九 · 同樣預算可購買的完整交付量                 報告:       500.25 倍
+                                                    calculations.json / total_cost / 4 / purchasing_power_multiple: 500.25 (偏差 0.00%)
+  ✅ 通過 [16] 較低：ε = 0.5 · 使用量倍數                   報告:        31.62
+                                                    calculations.json / demand / 0 / quantity_multiple: 31.62 (偏差 0.00%)
+  ✅ 通過 [17] 較低：ε = 0.5 · 收入倍數                    報告:         0.03
+                                                    calculations.json / demand / 0 / revenue_multiple: 0.03 (偏差 0.01%)
+  ✅ 通過 [18] 臨界：ε = 1.0 · 使用量倍數                   報告:      1000.00
+                                                    calculations.json / demand / 1 / quantity_multiple: 1000.00 (偏差 0.00%)
+  ✅ 通過 [19] 臨界：ε = 1.0 · 收入倍數                    報告:         1.00
+                                                    calculations.json / demand / 1 / revenue_multiple: 1.00 (偏差 0.00%)
+  ✅ 通過 [20] 較高：ε = 1.5 · 使用量倍數                   報告:     31622.78
+                                                    calculations.json / demand / 2 / quantity_multiple: 31622.78 (偏差 0.00%)
+  ✅ 通過 [21] 較高：ε = 1.5 · 收入倍數                    報告:        31.62
+                                                    calculations.json / demand / 2 / revenue_multiple: 31.62 (偏差 0.00%)
+  ✅ 通過 [23] Berkeley Lab，2026 版併網研究，數據截至 2025 年  報告:      2060.00
+                                                    https://emp.lbl.gov/queues: 2061.00 (偏差 0.05%)
+  ✅ 通過 [24] 《Generative AI at Work》修訂稿 · 資料實際告訴  報告:      5172.00
+                                                    https://arxiv.org/abs/2304.11771v2: 5172.00 (偏差 0.00%)
+  ✅ 通過 [26] 五年 · 額外租金現值                          報告:        37.91
+                                                    calculations.json / scarcity_rent_pv / five_years: 37.91 (偏差 0.01%)
+  ✅ 通過 [27] 十年 · 額外租金現值                          報告:        61.45
+                                                    calculations.json / scarcity_rent_pv / ten_years: 61.45 (偏差 0.01%)
+  ✅ 通過 [101] 等價年度降幅                               報告:        49.88
+                                                    calculations.json / annual_price_decline_pct: 49.88 (偏差 0.00%)
+  ✅ 通過 [102] 每年固定能力購買量倍數                          報告:         2.00
+                                                    calculations.json / annual_efficiency_multiple: 2.00 (偏差 0.01%)
+  ✅ 通過 [103] Epoch 固定測試表現成本年度下降倍數                 報告:        13.00
+                                                    https://epoch.ai/publications/the-plunging-price-of-thought: 13.00 (偏差 0.00%)
+  ✅ 通過 [104] IEA 2025 數據中心用電估計                    報告:       485.00
+                                                    https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary: 485.00 (偏差 0.00%)
+  ✅ 通過 [105] IEA 2030 數據中心用電預測                    報告:       950.00
+                                                    https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary: 950.00 (偏差 0.00%)
+  ✅ 通過 [106] 客服樣本每小時解決問題數改善百分比                    報告:        15.00
+                                                    https://arxiv.org/abs/2304.11771v2: 15.00 (偏差 0.00%)
+  ✅ 通過 [107] ILO 職業暴露就業佔比百分比                      報告:        25.00
+                                                    https://www.ilo.org/publications/generative-ai-and-jobs-2025-update: 25.00 (偏差 0.00%)
+  ✅ 通過 [108] 單步 99% 的一百步成功率                       報告:        36.60
+                                                    calculations.json / serial_reliability / 0: 36.60 (偏差 0.01%)
+  ✅ 通過 [109] 單步 99.9% 的一百步成功率                     報告:        90.48
+                                                    calculations.json / serial_reliability / 1: 90.48 (偏差 0.00%)
+  ✅ 通過 [110] 單步 99.99% 的一百步成功率                    報告:        99.00
+                                                    calculations.json / serial_reliability / 2: 99.00 (偏差 0.00%)
+  ✅ 通過 [111] 五次獨立嘗試至少一次成功率                        報告:       100.00
+                                                    calculations.json / independent_retry_example: 100.00 (偏差 0.00%)
+  ✅ 通過 [112] 示例總能耗倍數                              報告:        10.00
+                                                    calculations.json / energy_example: 10.00 (偏差 0.00%)
+  ✅ 通過 [113] 額外租金持續期縮短的現值降幅                       報告:        38.31
+                                                    calculations.json / scarcity_rent_pv: 38.31 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽檢總數: 38  |  通過: 38  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 38,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 38,
+  "fail_items": [],
+  "warn_items": []
+}

@@ -1,0 +1,214 @@
+======================================================================
+報告數據抽檢清單
+文件：/Users/linxuan/ai-berkshire/reports/七公司五年回報與資金配置-20260906/騰訊與拼多多五年底稿.md
+總提取數據點：97  |  抽樣比例：15%  |  抽檢數量：15
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  4     12  法定已發行數量 · PDD                        5693585848.00  
+  5     12  法定已發行數量 · 核驗邊界                               9.00  
+ 12     15  模型起點稀釋股份/ADS · PDD                          14.80  億
+ 14     16  2026正常化利潤基數 · PDD                          850.00  
+ 15     17  對應正常化模型PE · 騰訊                              15.25  倍
+ 18     33  增值服務收入年增速／2031淨利率 · 樂觀                       8.00  %
+ 29     37  2031歸母經濟利潤 · 樂觀                           3940.39  
+ 32     46  交易服務收入年增速／2031淨利率 · 悲觀                      -2.00  %
+ 36     47  常態稅後利息 · 基準                                 80.00  
+ 55     68  騰訊樂觀 · 退出PE                                 22.00  
+ 70     70  PDD基準 · 2031稀釋股數，億股/億ADS                    15.55  
+ 76     71  PDD樂觀 · 2031稀釋股數，億股/億ADS                    15.17  
+ 82     86  每年發行及股份激勵等增加 · 悲觀                            1.00  %
+ 87     88  起算每股股息／每年增速 · 悲觀                             4.00  
+ 95     90  五年逐年壓力校核中，分紅加回購最高佔現金 · 樂觀                   84.49  %
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 4,
+    "label": "法定已發行數量 · PDD",
+    "reported_value": 5693585848.0,
+    "unit": "",
+    "line_number": 12,
+    "raw_text": "| 法定已發行數量 | 9,103,153,877股 | 5,693,585,848普通股，即1,423,396,462 ADS | 騰訊為9月4日；PDD為年報披露2026年3月18日，不能寫成9月4日精確股本 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "法定已發行數量 · 核驗邊界",
+    "reported_value": 9.0,
+    "unit": "",
+    "line_number": 12,
+    "raw_text": "| 法定已發行數量 | 9,103,153,877股 | 5,693,585,848普通股，即1,423,396,462 ADS | 騰訊為9月4日；PDD為年報披露2026年3月18日，不能寫成9月4日精確股本 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 12,
+    "label": "模型起點稀釋股份/ADS · PDD",
+    "reported_value": 14.8,
+    "unit": "億",
+    "line_number": 15,
+    "raw_text": "| 模型起點稀釋股份/ADS | 92億股 | 14.8億ADS | 與計算市值的法定股數不同；研究假設，留有稀釋緩衝 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 14,
+    "label": "2026正常化利潤基數 · PDD",
+    "reported_value": 850.0,
+    "unit": "",
+    "line_number": 16,
+    "raw_text": "| 2026正常化利潤基數 | 2,309.5 | 850 | 研究假設，保留持續研發、SBC、折舊和稅負 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 15,
+    "label": "對應正常化模型PE · 騰訊",
+    "reported_value": 15.25,
+    "unit": "倍",
+    "line_number": 17,
+    "raw_text": "| 對應正常化模型PE | 15.25倍 | 9.70倍 | 模型利潤，不是數據供應商TTM PE |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 18,
+    "label": "增值服務收入年增速／2031淨利率 · 樂觀",
+    "reported_value": 8.0,
+    "unit": "%",
+    "line_number": 33,
+    "raw_text": "| 增值服務收入年增速／2031淨利率 | 0%／25% | 6%／32% | 8%／34% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 29,
+    "label": "2031歸母經濟利潤 · 樂觀",
+    "reported_value": 3940.39,
+    "unit": "",
+    "line_number": 37,
+    "raw_text": "| **2031歸母經濟利潤** | **1668.43** | **3254.66** | **3940.39** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 32,
+    "label": "交易服務收入年增速／2031淨利率 · 悲觀",
+    "reported_value": -2.0,
+    "unit": "%",
+    "line_number": 46,
+    "raw_text": "| 交易服務收入年增速／2031淨利率 | -2%／-3% | 8%／3% | 12%／6.5% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 36,
+    "label": "常態稅後利息 · 基準",
+    "reported_value": 80.0,
+    "unit": "",
+    "line_number": 47,
+    "raw_text": "| 常態稅後利息 | 40 | 80 | 100 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 55,
+    "label": "騰訊樂觀 · 退出PE",
+    "reported_value": 22.0,
+    "unit": "",
+    "line_number": 68,
+    "raw_text": "| 騰訊樂觀 | 3940.39 | 22 | -1.5% | 85.3039 | 35.59 | 1175.41 | **22.29%** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 70,
+    "label": "PDD基準 · 2031稀釋股數，億股/億ADS",
+    "reported_value": 15.5549,
+    "unit": "",
+    "line_number": 70,
+    "raw_text": "| PDD基準 | 1166.32 | 12 | +1% | 15.5549 | 0 | 132.74 | **10.06%** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 76,
+    "label": "PDD樂觀 · 2031稀釋股數，億股/億ADS",
+    "reported_value": 15.1737,
+    "unit": "",
+    "line_number": 71,
+    "raw_text": "| PDD樂觀 | 1581.39 | 16 | +0.5% | 15.1737 | 0 | 245.99 | **24.51%** |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 82,
+    "label": "每年發行及股份激勵等增加 · 悲觀",
+    "reported_value": 1.0,
+    "unit": "%",
+    "line_number": 86,
+    "raw_text": "| 每年發行及股份激勵等增加 | 1% | 1% | 1% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 87,
+    "label": "起算每股股息／每年增速 · 悲觀",
+    "reported_value": 4.0,
+    "unit": "",
+    "line_number": 88,
+    "raw_text": "| 起算每股股息／每年增速 | 4港元／0% | 5.3港元／5% | 5.3港元／10% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 95,
+    "label": "五年逐年壓力校核中，分紅加回購最高佔現金 · 樂觀",
+    "reported_value": 84.49,
+    "unit": "%",
+    "line_number": 90,
+    "raw_text": "| 五年逐年壓力校核中，分紅加回購最高佔現金 | 56.49% | 69.56% | 84.49% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

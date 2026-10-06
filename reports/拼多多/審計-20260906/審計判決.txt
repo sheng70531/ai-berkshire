@@ -1,0 +1,38 @@
+======================================================================
+[1m報告數據抽檢 — 準出/打回判決[0m
+報告：/Users/linxuan/ai-berkshire/reports/拼多多/拼多多研究報告-20260906.md
+======================================================================
+
+  [92m✅ 通過[0m [ 2] 收入 · 2022                            報告:    130557.59 
+                                                    https://investor.pddholdings.com/static-files/e9586d93-bb1d-4e98-af8a-4e73b62350f2: 130557.59 (偏差 0.00%)  |  https://stockanalysis.com/stocks/pdd/financials/: 130558.00 (偏差 0.00%)
+  [92m✅ 通過[0m [ 8] 營業成本 · 2023                          報告:     91723.58 
+                                                    https://cdn.yahoofinance.com/prod/sec-filings/0001737806/000110465926050727/pdd-20251231x20f.htm: 91723.58 (偏差 0.00%)  |  https://finance.sina.com.cn/tech/2025-03-20/doc-ineqiark3734433.shtml: 91723.60 (偏差 0.00%)
+  [92m✅ 通過[0m [ 9] 營業成本 · 2024                          報告:    153900.37 
+                                                    https://cdn.yahoofinance.com/prod/sec-filings/0001737806/000110465926050727/pdd-20251231x20f.htm: 153900.37 (偏差 0.00%)  |  https://finance.sina.com.cn/tech/2025-03-20/doc-ineqiark3734433.shtml: 153900.40 (偏差 0.00%)
+  [92m✅ 通過[0m [15] 經營利潤 · 2025                          報告:     93102.13 
+                                                    https://cdn.yahoofinance.com/prod/sec-filings/0001737806/000110465926050727/pdd-20251231x20f.htm: 93102.13 (偏差 0.00%)  |  https://stockanalysis.com/stocks/pdd/financials/: 93102.00 (偏差 0.00%)
+  [92m✅ 通過[0m [18] GAAP歸母 · 2023                        報告:     60026.54 
+                                                    https://cdn.yahoofinance.com/prod/sec-filings/0001737806/000110465926050727/pdd-20251231x20f.htm: 60026.54 (偏差 0.00%)  |  https://stockanalysis.com/stocks/pdd/financials/: 60027.00 (偏差 0.00%)
+  [92m✅ 通過[0m [16] GAAP歸母 · 2021                        報告:      7768.67 
+                                                    https://investor.pddholdings.com/static-files/e9586d93-bb1d-4e98-af8a-4e73b62350f2: 7768.67 (偏差 0.00%)  |  https://stockanalysis.com/stocks/pdd/financials/: 7769.00 (偏差 0.00%)
+  [92m✅ 通過[0m [41] 悲觀 · 三年總回報                           報告:       -39.90 %
+                                                    估值模型.json / financial_rigor三情景與calc原輸出: -39.90 (偏差 0.01%)  |  獨立Decimal35位復算；若為增長/PE，則與本文件事先明確的情景輸入核對，非外部事實: -39.90 (偏差 0.01%)
+  [92m✅ 通過[0m [48] 基準 · 年化回報                            報告:        12.71 %
+                                                    估值模型.json / financial_rigor三情景與calc原輸出: 12.71 (偏差 0.04%)  |  獨立Decimal35位復算；若為增長/PE，則與本文件事先明確的情景輸入核對，非外部事實: 12.71 (偏差 0.04%)
+  [92m✅ 通過[0m [54] 樂觀 · 年化回報                            報告:        32.32 %
+                                                    估值模型.json / financial_rigor三情景與calc原輸出: 32.32 (偏差 0.01%)  |  獨立Decimal35位復算；若為增長/PE，則與本文件事先明確的情景輸入核對，非外部事實: 32.32 (偏差 0.01%)
+
+----------------------------------------------------------------------
+  抽檢總數: 9  |  通過: [92m9[0m  |  警告: [93m0[0m  |  不通過: [91m0[0m
+
+[1m[92m【準出】所有抽檢數據通過，報告可發佈。[0m
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 9,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 9,
+  "fail_items": [],
+  "warn_items": []
+}

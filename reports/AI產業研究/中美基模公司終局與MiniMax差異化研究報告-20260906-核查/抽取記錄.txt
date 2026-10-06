@@ -1,0 +1,97 @@
+======================================================================
+報告數據抽檢清單
+文件：/Users/linxuan/ai-berkshire/reports/AI產業研究/中美基模公司終局與MiniMax差異化研究報告-20260906.md
+總提取數據點：6  |  抽樣比例：100%  |  抽檢數量：6
+隨機種子：42（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  6      3  長期觀察終點                                    2036.00  
+  5      3  資料截止                                      2026.00  
+  1     81  總收入 · 披露值                                  116.57  
+  2     82  開放平臺及其他企業服務收入佔比 · 披露值                       63.40  %
+  3     83  集團毛利率 · 披露值                                 17.90  %
+  4     84  研發費用 · 披露值                                 296.87  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 6,
+    "label": "長期觀察終點",
+    "reported_value": 2036.0,
+    "unit": "",
+    "line_number": 3,
+    "raw_text": "資料截止：2026-09-06；長期觀察終點：2036年。以下把可核事實與主觀推演分開。討論產業結構和經營質量，不做當前股價估值或買賣建議。用於學習與研究。",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 5,
+    "label": "資料截止",
+    "reported_value": 2026.0,
+    "unit": "",
+    "line_number": 3,
+    "raw_text": "資料截止：2026-09-06；長期觀察終點：2036年。以下把可核事實與主觀推演分開。討論產業結構和經營質量，不做當前股價估值或買賣建議。用於學習與研究。",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 1,
+    "label": "總收入 · 披露值",
+    "reported_value": 116.573,
+    "unit": "",
+    "line_number": 81,
+    "raw_text": "| 總收入 | 116.573 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 2,
+    "label": "開放平臺及其他企業服務收入佔比 · 披露值",
+    "reported_value": 63.4,
+    "unit": "%",
+    "line_number": 82,
+    "raw_text": "| 開放平臺及其他企業服務收入佔比 | 63.4% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 3,
+    "label": "集團毛利率 · 披露值",
+    "reported_value": 17.9,
+    "unit": "%",
+    "line_number": 83,
+    "raw_text": "| 集團毛利率 | 17.9% |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 4,
+    "label": "研發費用 · 披露值",
+    "reported_value": 296.87,
+    "unit": "",
+    "line_number": 84,
+    "raw_text": "| 研發費用 | 296.870 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]

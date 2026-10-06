@@ -1,0 +1,68 @@
+======================================================================
+報告數據抽檢 — 準出/打回判決
+報告：騰訊-investment-team-AI利潤與競爭格局.md
+======================================================================
+
+  ✅ 通過 [ 2] 2027 non-IFRS歸母 · 悲觀E                報告:      2759.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 2758.80 (偏差 0.01%)
+  ✅ 通過 [ 7] 2028 non-IFRS歸母 · 樂觀E                報告:      4232.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 4231.60 (偏差 0.01%)
+  ✅ 通過 [ 9] 2029 non-IFRS歸母 · 基準E                報告:      4235.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 4235.14 (偏差 0.00%)
+  ✅ 通過 [ 8] 2029 non-IFRS歸母 · 悲觀E                報告:      2885.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 2885.02 (偏差 0.00%)
+  ✅ 通過 [23] 風險評估 · 評分（最高5）                       報告:         3.50
+                                                    Research assumption ledger; NOT externally validated: 3.50 (偏差 0.00%)
+  ✅ 通過 [24] 收入 · 2024全年                          報告:      6602.57
+                                                    https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf: 6602.57 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 6602.57 (偏差 0.00%)
+  ✅ 通過 [29] IFRS歸母淨利潤 · 2026上半年                  報告:      1141.15
+                                                    https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0812/2026081200296.pdf: 1141.15 (偏差 0.00%)
+  ✅ 通過 [27] IFRS歸母淨利潤 · 2024全年                   報告:      1940.73
+                                                    https://static.www.tencent.com/uploads/2026/03/18/e6a646796d0d869acc76271c9ee1a6a5.pdf: 1940.73 (偏差 0.00%)  |  https://stockanalysis.com/quote/hkg/0700/financials/: 1940.73 (偏差 0.00%)
+  ✅ 通過 [36] non-IFRS經營利潤 · 數值                    報告:       756.36
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf: 756.36 (偏差 0.00%)
+  ✅ 通過 [41] 剔除算力預付款的自由現金流 · 數值                   報告:       376.00
+                                                    https://www.tencent.com/wp-content/uploads/2026/08/Tencent-Announces-2026-Second-Quarter-Results.pdf: 376.00 (偏差 0.00%)
+  ✅ 通過 [51] 第三方客戶雲基礎設施貢獻 · 2029                  報告:       140.00
+                                                    Research assumption ledger; NOT externally validated: 140.00 (偏差 0.00%)
+  ✅ 通過 [56] 上述正貢獻合計 · 2028                       報告:       535.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 535.00 (偏差 0.00%)
+  ✅ 通過 [57] 上述正貢獻合計 · 2029                       報告:       855.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 855.00 (偏差 0.00%)
+  ✅ 通過 [58] 減：老業務額外推理、折舊及基礎設施費用 · 2027           報告:        50.00
+                                                    Research assumption ledger; NOT externally validated: 50.00 (偏差 0.00%)
+  ✅ 通過 [60] 減：老業務額外推理、折舊及基礎設施費用 · 2029           報告:       150.00
+                                                    Research assumption ledger; NOT externally validated: 150.00 (偏差 0.00%)
+  ✅ 通過 [63] 減：新AI產品經營淨虧損 · 2029                  報告:       250.00
+                                                    Research assumption ledger; NOT externally validated: 250.00 (偏差 0.00%)
+  ✅ 通過 [71] 相對凍結參考的歸母增量 · 2028                   報告:       372.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 372.00 (偏差 0.00%)
+  ✅ 通過 [72] 相對凍結參考的歸母增量 · 2029                   報告:       724.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 724.00 (偏差 0.00%)
+  ✅ 通過 [109] 廣告和商業推薦 · 經營利潤貢獻                     報告:      2496.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 2496.00 (偏差 0.00%)
+  ✅ 通過 [108] 廣告和商業推薦 · 2036經營利潤率                  報告:        48.00 %
+                                                    Research assumption ledger; NOT externally validated: 48.00 (偏差 0.00%)
+  ✅ 通過 [115] 外部雲與獨立AI產品 · 2026收入基數                報告:       600.00
+                                                    Research assumption ledger; NOT externally validated: 600.00 (偏差 0.00%)
+  ✅ 通過 [130] 扣總部後經營利潤 · 樂觀                        報告:     10557.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 10557.00 (偏差 0.00%)
+  ✅ 通過 [140] 再扣維持性投入超過折舊的負擔假設 · 悲觀                報告:       250.00
+                                                    Research assumption ledger; NOT externally validated: 250.00 (偏差 0.00%)
+  ✅ 通過 [155] 要求較強安全邊際 · 參考價格（港元）                  報告:       360.00
+                                                    Independent Decimal expression in evidence/validation.py; NOT external fact: 360.00 (偏差 0.00%)
+
+----------------------------------------------------------------------
+  抽檢總數: 24  |  通過: 24  |  警告: 0  |  不通過: 0
+
+【準出】所有抽檢數據通過，報告可發佈。
+======================================================================
+{
+  "verdict": "PASS",
+  "pass_count": 24,
+  "warn_count": 0,
+  "fail_count": 0,
+  "total": 24,
+  "fail_items": [],
+  "warn_items": []
+}

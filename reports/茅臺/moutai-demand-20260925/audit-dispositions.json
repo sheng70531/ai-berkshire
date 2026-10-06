@@ -1,0 +1,42 @@
+[
+  {
+    "id": 87,
+    "label": "口徑說明",
+    "reported_value": 2025.0,
+    "unit": "",
+    "raw_text": "口徑說明：2025 年 **1720.54 億元**、2026H1 **922.78 億元**是營業總收入，包含金融業務利息收入，不是上表的營業收入。模型統一使用營業收入，並把金融收益及少數股東影響綜合包含在歸母淨利率中，不再重複加利息收益",
+    "line_number": 34,
+    "review_type": "parser_false_positive",
+    "disposition": "2025 is a year in prose, not financial metric. Excluded; no replacement fabricated."
+  },
+  {
+    "id": 29,
+    "label": "樂觀 · 2036 行業需求指數",
+    "reported_value": 90.0,
+    "unit": "",
+    "raw_text": "| 樂觀 | 90—100 | 成年遷移較強，小聚和私人消費承接大部分損失 |",
+    "line_number": 151,
+    "review_type": "analyst_assumption",
+    "disposition": "Retained with explicit hypothesis label; not an empirical claim, no fabricated external fetched value."
+  },
+  {
+    "id": 32,
+    "label": "茅臺酒銷量，噸 · 2028E",
+    "reported_value": 48500.0,
+    "unit": "",
+    "raw_text": "| 茅臺酒銷量，噸 | 48000 | 48000 | 48500 | 49000 |",
+    "line_number": 177,
+    "review_type": "analyst_assumption",
+    "disposition": "Retained with explicit hypothesis label; not an empirical claim, no fabricated external fetched value."
+  },
+  {
+    "id": 36,
+    "label": "茅臺酒實現噸價，萬元 · 2028E",
+    "reported_value": 324.0,
+    "unit": "",
+    "raw_text": "| 茅臺酒實現噸價，萬元 | 312 | 318 | 324 | 330 |",
+    "line_number": 178,
+    "review_type": "analyst_assumption",
+    "disposition": "Retained with explicit hypothesis label; not an empirical claim, no fabricated external fetched value."
+  }
+]

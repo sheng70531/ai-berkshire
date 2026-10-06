@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "ratio": 0.15,
+  "extracted_points": 22,
+  "sample_count": 4,
+  "facts_with_two_source_checks": 3,
+  "model_policy_separately_checked": 1,
+  "unclassified_samples": 0,
+  "limitation": "僅為本橫評抽樣，不表示全系列每項事實均雙源，也不驗證未來假設會實現。來源值為本次實際核讀記錄；腳本重跑不會自動刷新網絡。"
+}

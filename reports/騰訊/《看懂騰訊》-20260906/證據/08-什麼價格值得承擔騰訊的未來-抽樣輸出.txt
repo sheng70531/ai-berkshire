@@ -1,0 +1,110 @@
+======================================================================
+報告數據抽檢清單
+文件：reports/騰訊/《看懂騰訊》-20260906/08-什麼價格值得承擔騰訊的未來.md
+總提取數據點：42  |  抽樣比例：15%  |  抽檢數量：7
+隨機種子：20260906（可用於復現同一批樣本）
+======================================================================
+
+ ID     行號  數據標籤                                          報告值  單位
+───  ─────  ───────────────────────────────────  ────────────  ──────
+  3     63  第 1 年 · 樂觀                                 130.00  
+  7     65  第 3 年 · 熊市                                  95.00  
+ 20     69  第 10 年現金 · 基準                              268.02  
+ 24    114  核心經營資產價值 · 熊市，8%                          1460.77  
+ 30    116  總股權價值 · 熊市，8%                             1921.40  
+ 33    117  按 92 億股及匯率折算每股 · 熊市，8%                     244.01  
+ 38    150  永續增速由 2% 降為 1% · 每股條件價值，港元                 466.14  
+
+↑ 請對上述每個數據點，從以下信源取數，填入 fetched_value：
+  美股：macrotrends.net（主）+ stockanalysis.com（副）
+  港股：aastocks.com（主）+ macrotrends ADR（副）
+  A股： eastmoney.com（主）+ cninfo.com.cn（副）
+
+抽檢清單 JSON（填入 fetched_value 後，傳給 verdict 命令）：
+
+[
+  {
+    "id": 3,
+    "label": "第 1 年 · 樂觀",
+    "reported_value": 130.0,
+    "unit": "",
+    "line_number": 63,
+    "raw_text": "| 第 1 年 | 50 | 100 | 130 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 7,
+    "label": "第 3 年 · 熊市",
+    "reported_value": 95.0,
+    "unit": "",
+    "line_number": 65,
+    "raw_text": "| 第 3 年 | 95 | 170 | 220 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 20,
+    "label": "第 10 年現金 · 基準",
+    "reported_value": 268.02,
+    "unit": "",
+    "line_number": 69,
+    "raw_text": "| 第 10 年現金 | 132.49 | 268.02 | 440.80 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 24,
+    "label": "核心經營資產價值 · 熊市，8%",
+    "reported_value": 1460.77,
+    "unit": "",
+    "line_number": 114,
+    "raw_text": "| 核心經營資產價值 | 1,460.77 | 3,397.83 | 5,336.47 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 30,
+    "label": "總股權價值 · 熊市，8%",
+    "reported_value": 1921.4,
+    "unit": "",
+    "line_number": 116,
+    "raw_text": "| 總股權價值 | 1,921.40 | 3,989.73 | 6,054.67 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 33,
+    "label": "按 92 億股及匯率折算每股 · 熊市，8%",
+    "reported_value": 244.01,
+    "unit": "",
+    "line_number": 117,
+    "raw_text": "| 按 92 億股及匯率折算每股 | 244.01 | 506.68 | 768.92 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  },
+  {
+    "id": 38,
+    "label": "永續增速由 2% 降為 1% · 每股條件價值，港元",
+    "reported_value": 466.14,
+    "unit": "",
+    "line_number": 150,
+    "raw_text": "| 永續增速由 2% 降為 1% | 466.14 | 十年之後增長更弱，對今天價值影響多大 |",
+    "fetched_value": null,
+    "fetched_source": "",
+    "fetched_value2": null,
+    "fetched_source2": ""
+  }
+]
