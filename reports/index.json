@@ -1,6 +1,83 @@
 {
-  "count": 2371,
+  "count": 2378,
   "reports": [
+    {
+      "title": "英偉達（NVDA）投資研究：生意更強了，盈利預估一個季度上修 23%，但現金流與表外承諾在拉開距離",
+      "path": "reports/英偉達/英偉達-research-20261008.md",
+      "bucket": "公司",
+      "group": "英偉達",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-08",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "海運產業研究：戰爭把運價推上歷史高點，新船訂單正在準備下一次過剩——好生意在碼頭與長約租船，不在運價",
+      "path": "reports/海運-industry-20261008.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-08",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "口罩產業研究：俄羅斯「鼠疫」未確診、無人傳人，今天的漲停來自季節性流感；這是一門產能嚴重過剩的大宗商品生意，只有防護設備平台值得長期研究",
+      "path": "reports/口罩-industry-20261008.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-08",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "半導體 ETF 研究（SOXQ／SOXX／SOXL）：一籃子週期股站在盈利高峰上；3 倍槓桿 5 年只換來和 1 倍一樣的報酬",
+      "path": "reports/半導體ETF/半導體ETF-SOXQ-SOXX-SOXL-research-20261008.md",
+      "bucket": "公司",
+      "group": "半導體ETF",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-08",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "美光科技（MU）與 MUU 投資研究：利潤再創紀錄，但價格已把高峰當常態；槓桿版放大的是波動，不是勝率",
+      "path": "reports/美光科技/美光科技-research-20261007.md",
+      "bucket": "公司",
+      "group": "美光科技",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-07",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "台灣 AI 伺服器供應鏈產業研究：需求是真的，利潤不在組裝，在「卡脖子」的零組件——而那裡已經很貴",
+      "path": "reports/台灣AI伺服器供應鏈-industry-20261007.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-07",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "QQQ（Invesco 納斯達克100 ETF）投資研究：好資產、創新高、但股票風險溢價已轉負",
+      "path": "reports/QQQ/QQQ-research-20261007.md",
+      "bucket": "公司",
+      "group": "QQQ",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-07",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "元大台灣50（0050）投資研究：56% 台積電 + 44% 更貴的 AI 供應鏈",
       "path": "reports/0050/0050-research-20261006.md",
