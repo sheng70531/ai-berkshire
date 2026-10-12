@@ -1,6 +1,17 @@
 {
-  "count": 2379,
+  "count": 2380,
   "reports": [
+    {
+      "title": "AI 伺服器 ASIC 供應鏈漏斗（Google TPU × AWS Trainium，台股）：純 ASIC 股過不了現金流這關，最後留下的是「賣鏟子給所有人」的公司",
+      "path": "reports/AI伺服器ASIC-funnel-20261012.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "篩選",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "AI 伺服器產業研究：台灣供應鏈 × 美股雲端客戶——訂單看得到 2027，但付帳的人開始借錢了",
       "path": "reports/AI伺服器-industry-20261012.md",
