@@ -1,6 +1,17 @@
 {
-  "count": 2378,
+  "count": 2379,
   "reports": [
+    {
+      "title": "AI 伺服器產業研究：台灣供應鏈 × 美股雲端客戶——訂單看得到 2027，但付帳的人開始借錢了",
+      "path": "reports/AI伺服器-industry-20261012.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-12",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "英偉達（NVDA）投資研究：生意更強了，盈利預估一個季度上修 23%，但現金流與表外承諾在拉開距離",
       "path": "reports/英偉達/英偉達-research-20261008.md",
