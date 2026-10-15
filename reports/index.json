@@ -1,5 +1,5 @@
 {
-  "count": 2381,
+  "count": 2385,
   "reports": [
     {
       "title": "統一奔騰基金：巴菲特買入前 Checklist——經理人是真的強，但現在買到的是 51 倍本益比的 AI 供應鏈",
@@ -9,6 +9,50 @@
       "series": "",
       "type": "底稿",
       "date": "2026-10-15",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "AMD 新聞脈搏與異動歸因報告：30 天 +22.72%，一半是板塊，三成是「代理式 AI 需要 CPU」的題材，公司自己沒說新數字",
+      "path": "reports/AMD/AMD-news-20261014.md",
+      "bucket": "公司",
+      "group": "AMD",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-14",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "瀚宇彩晶（6116）投資研究報告：本業連 16 季毛損，資產底每股約 5.5 元，15.2 元在替一座虧錢的工廠付 276 億元",
+      "path": "reports/彩晶/彩晶-research-20261013.md",
+      "bucket": "公司",
+      "group": "彩晶",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-13",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "AMD 研究增量更新（2026-10-13）：股價從高點回落 8.5%，仍高於合理區間上緣 $530；十年基準 IRR 從 -5.2% 改善到 -4.6%，結論不變",
+      "path": "reports/AMD/AMD-research-20261013.md",
+      "bucket": "公司",
+      "group": "AMD",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-13",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "台灣面板產業研究（聚焦彩晶 6116）：彩晶今年漲到 22.7 元，靠的是賣廠和族群輪動，本業還在毛損；15.2 元已高於十年 PB 第 90 百分位",
+      "path": "reports/台灣面板-industry-20261012.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-12",
       "date_source": "文件名",
       "ticker": ""
     },
