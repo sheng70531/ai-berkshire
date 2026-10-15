@@ -1,6 +1,17 @@
 {
-  "count": 2380,
+  "count": 2381,
   "reports": [
+    {
+      "title": "統一奔騰基金：巴菲特買入前 Checklist——經理人是真的強，但現在買到的是 51 倍本益比的 AI 供應鏈",
+      "path": "reports/統一奔騰/統一奔騰-checklist-20261015.md",
+      "bucket": "公司",
+      "group": "統一奔騰",
+      "series": "",
+      "type": "底稿",
+      "date": "2026-10-15",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "AI 伺服器 ASIC 供應鏈漏斗（Google TPU × AWS Trainium，台股）：純 ASIC 股過不了現金流這關，最後留下的是「賣鏟子給所有人」的公司",
       "path": "reports/AI伺服器ASIC-funnel-20261012.md",
