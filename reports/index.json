@@ -1,6 +1,28 @@
 {
-  "count": 2385,
+  "count": 2387,
   "reports": [
+    {
+      "title": "Tesla（TSLA）投資研究（2026-10-19）：$354.72 要求 2036 年淨利 $3,729 億，約是 2025 年的 98 倍；十年加權 IRR −10.1%，三檔 r 下都為負，結論：回避",
+      "path": "reports/Tesla/Tesla-research-20261019.md",
+      "bucket": "公司",
+      "group": "Tesla",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-19",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "AMD vs QQQ 對比研究：用同一把尺量，QQQ 在三年與十年兩個框架、三檔 r 下都排在 AMD 前面；但十年尺度下兩者都輸給 10 年期公債",
+      "path": "reports/AMD與QQQ對比-research-20261016.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "橫評對比",
+      "date": "2026-10-16",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "統一奔騰基金：巴菲特買入前 Checklist——經理人是真的強，但現在買到的是 51 倍本益比的 AI 供應鏈",
       "path": "reports/統一奔騰/統一奔騰-checklist-20261015.md",
