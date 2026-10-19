@@ -1,6 +1,72 @@
 {
-  "count": 2381,
+  "count": 2387,
   "reports": [
+    {
+      "title": "信驊（5274）投研團隊最終報告：滿分的生意、週期頂部的訂單、歷史高檔的本益比——三個頂點疊在一起",
+      "path": "reports/信驊/最終報告.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-19",
+      "date_source": "正文",
+      "ticker": ""
+    },
+    {
+      "title": "信驊（5274）巴菲特買入前 Checklist：台股最好的生意之一，但 121 倍本益比已經把 2028 年都算進去了",
+      "path": "reports/信驊/信驊-checklist-20261019.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "底稿",
+      "date": "2026-10-19",
+      "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "信驊（5274）風險與管理層評估：李錄視角——好人經營好生意，但最危險的風險是「缺貨時的訂單」",
+      "path": "reports/信驊/04-風險管理層評估-李錄視角.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "組織管理",
+      "date": "2026-10-19",
+      "date_source": "正文",
+      "ticker": ""
+    },
+    {
+      "title": "信驊（5274）行業競爭分析——芒格視角：管家晶片的護城河，會從哪裡漏水？",
+      "path": "reports/信驊/03-行業競爭分析-芒格視角.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-19",
+      "date_source": "正文",
+      "ticker": ""
+    },
+    {
+      "title": "信驊（5274）財務與估值分析（巴菲特視角）：財報滿分的生意，股價卻已預支到 2031 年",
+      "path": "reports/信驊/02-財務估值分析-巴菲特視角.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "估值倉位",
+      "date": "2026-10-19",
+      "date_source": "正文",
+      "ticker": ""
+    },
+    {
+      "title": "信驊（5274）商業模式分析（段永平視角）：護城河在 ODM 那端很深，在雲端大客戶那端正在變淺",
+      "path": "reports/信驊/01-商業模式分析-段永平視角.md",
+      "bucket": "公司",
+      "group": "信驊",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-19",
+      "date_source": "正文",
+      "ticker": ""
+    },
     {
       "title": "統一奔騰基金：巴菲特買入前 Checklist——經理人是真的強，但現在買到的是 51 倍本益比的 AI 供應鏈",
       "path": "reports/統一奔騰/統一奔騰-checklist-20261015.md",
