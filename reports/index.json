@@ -1,6 +1,17 @@
 {
-  "count": 2395,
+  "count": 2398,
   "reports": [
+    {
+      "title": "Alphabet（GOOGL）投資研究報告",
+      "path": "reports/Google/Google-research-20261030.md",
+      "bucket": "公司",
+      "group": "Google",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-30",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "0050 投資論文漂移檢測（10/6 → 10/21）：論文沒有漂移，價格漂移了",
       "path": "reports/0050/0050-thesis-drift-20261021.md",
@@ -189,6 +200,17 @@
       "ticker": ""
     },
     {
+      "title": "組合檢視：AMD / QQQ / MSFT / SOXQ / SPY / TSM",
+      "path": "reports/portfolio-us.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-09",
+      "date_source": "正文",
+      "ticker": ""
+    },
+    {
       "title": "英偉達（NVDA）投資研究：生意更強了，盈利預估一個季度上修 23%，但現金流與表外承諾在拉開距離",
       "path": "reports/英偉達/英偉達-research-20261008.md",
       "bucket": "公司",
@@ -263,6 +285,17 @@
       "type": "研究",
       "date": "2026-10-07",
       "date_source": "文件名",
+      "ticker": ""
+    },
+    {
+      "title": "組合檢視：光寶科 / 緯創 / 群創 / 正文 / 廣運",
+      "path": "reports/portfolio-tw.md",
+      "bucket": "專題",
+      "group": "綜合與橫評",
+      "series": "",
+      "type": "組合",
+      "date": "2026-10-06",
+      "date_source": "front-matter",
       "ticker": ""
     },
     {
