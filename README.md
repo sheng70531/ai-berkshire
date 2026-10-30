@@ -16,7 +16,7 @@
 
 <!-- REPORTS-BANNER:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2396 份報告 · 119 家公司 · 24 個專題，按公司與專題分組，更新至 2026-10-30。
+> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2397 份報告 · 119 家公司 · 24 個專題，按公司與專題分組，更新至 2026-10-30。
 
 <!-- REPORTS-BANNER:END -->
 
@@ -657,12 +657,13 @@ REM 可选：安装 Codex slash prompts
 
 <!-- REPORTS-INDEX:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-**📊 [全部研究索引 →](reports/README.md)** ｜ 2396 份報告 · 119 家公司 · 24 個專題 · 更新至 2026-10-30
+**📊 [全部研究索引 →](reports/README.md)** ｜ 2397 份報告 · 119 家公司 · 24 個專題 · 更新至 2026-10-30
 
 最近更新：
 
 | 日期 | 報告 | 歸屬 |
 |------|------|------|
+| 2026-10-30 | [英特爾（NASDAQ: INTC）投資研究報告](reports/Intel/Intel-research-20261030.md) | Intel |
 | 2026-10-30 | [Alphabet（GOOGL）投資研究報告](reports/Google/Google-research-20261030.md) | Google |
 | 2026-10-21 | [0050 投資論文漂移檢測（10/6 → 10/21）：論文沒有漂移，價格漂移了](reports/0050/0050-thesis-drift-20261021.md) | 0050 |
 | 2026-10-21 | [元大台灣50（0050）投資研究：兩週跌 7.5%，獲利沒變、本益比變了——從「偏貴」回到「合理區」](reports/0050/0050-research-20261021.md) | 0050 |

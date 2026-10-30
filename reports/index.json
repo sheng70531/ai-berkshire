@@ -1,6 +1,17 @@
 {
-  "count": 2396,
+  "count": 2397,
   "reports": [
+    {
+      "title": "英特爾（NASDAQ: INTC）投資研究報告",
+      "path": "reports/Intel/Intel-research-20261030.md",
+      "bucket": "公司",
+      "group": "Intel",
+      "series": "",
+      "type": "研究",
+      "date": "2026-10-30",
+      "date_source": "文件名",
+      "ticker": ""
+    },
     {
       "title": "Alphabet（GOOGL）投資研究報告",
       "path": "reports/Google/Google-research-20261030.md",
