@@ -16,7 +16,7 @@
 
 <!-- REPORTS-BANNER:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2400 份報告 · 120 家公司 · 24 個專題，按公司與專題分組，更新至 2026-11-04。
+> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2401 份報告 · 120 家公司 · 24 個專題，按公司與專題分組，更新至 2026-11-05。
 
 <!-- REPORTS-BANNER:END -->
 
@@ -657,18 +657,18 @@ REM 可选：安装 Codex slash prompts
 
 <!-- REPORTS-INDEX:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-**📊 [全部研究索引 →](reports/README.md)** ｜ 2400 份報告 · 120 家公司 · 24 個專題 · 更新至 2026-11-04
+**📊 [全部研究索引 →](reports/README.md)** ｜ 2401 份報告 · 120 家公司 · 24 個專題 · 更新至 2026-11-05
 
 最近更新：
 
 | 日期 | 報告 | 歸屬 |
 |------|------|------|
+| 2026-11-05 | [0050 投資論文漂移檢測（10/21 → 11/4）：輕度正向漂移，估值改善仍有四分之三來自價格](reports/0050/0050-thesis-drift-20261105.md) | 0050 |
 | 2026-11-04 | [AMD 研究報告（2026-11-04）：Q3 證實 Helios 出貨、Q4 指引 $170 億；收盤 $483.90 回到三年區間內，十年基準 IRR 仍是 -1.94%](reports/AMD/AMD-research-20261104.md) | AMD |
 | 2026-11-04 | [元大台灣50（0050）投資研究：再跌 6.9%，獲利開始上修但還沒進官方本益比——離「有吸引力線」只差 2.6%](reports/0050/0050-research-20261104.md) | 0050 |
 | 2026-10-30 | [英特爾（NASDAQ: INTC）投資研究報告](reports/Intel/Intel-research-20261030.md) | Intel |
 | 2026-10-30 | [Alphabet（GOOGL）投資研究報告](reports/Google/Google-research-20261030.md) | Google |
 | 2026-10-27 | [iShares Core S&P/ASX 200 ETF（IOZ）研究：費用最低一級、追蹤精準，但配息不穩、估值偏高，而且現在定存利率比它的殖利率高](reports/IOZ/IOZ-research-20261027.md) | IOZ |
-| 2026-10-21 | [0050 投資論文漂移檢測（10/6 → 10/21）：論文沒有漂移，價格漂移了](reports/0050/0050-thesis-drift-20261021.md) | 0050 |
 
 <!-- REPORTS-INDEX:END -->
 
