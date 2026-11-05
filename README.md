@@ -666,9 +666,12 @@ REM 可选：安装 Codex slash prompts
 | 2026-11-05 | [0050 投資論文漂移檢測（10/21 → 11/4）：輕度正向漂移，估值改善仍有四分之三來自價格](reports/0050/0050-thesis-drift-20261105.md) | 0050 |
 | 2026-11-04 | [AMD 研究報告（2026-11-04）：Q3 證實 Helios 出貨、Q4 指引 $170 億；收盤 $483.90 回到三年區間內，十年基準 IRR 仍是 -1.94%](reports/AMD/AMD-research-20261104.md) | AMD |
 | 2026-11-04 | [元大台灣50（0050）投資研究：再跌 6.9%，獲利開始上修但還沒進官方本益比——離「有吸引力線」只差 2.6%](reports/0050/0050-research-20261104.md) | 0050 |
+| 2026-11-04 | [AMD 投資研究（2026-11-04，Q3 財報後）：營收與指引雙超預期，股價跌進合理區間；三年計稀釋約 5.1%、十年 −2.0%，仍排在 QQQ、GOOG 之後，結論：觀望（持倉者續抱不加碼）](reports/AMD/AMD-research-20261104-2.md) | AMD |
 | 2026-10-30 | [英特爾（NASDAQ: INTC）投資研究報告](reports/Intel/Intel-research-20261030.md) | Intel |
+| 2026-10-30 | [Alphabet（GOOG）投資研究（2026-10-30）：財報後單日 −12.3%，剔除投資收益後 PE 25.8 倍；三年預期年化約 5.1%、十年 +0.3%，排在 QQQ 之後、AMD 與 TSLA 之前，結論：觀望](reports/Google/Google-research-同一把尺-20261030.md) | Google |
 | 2026-10-30 | [Alphabet（GOOGL）投資研究報告](reports/Google/Google-research-20261030.md) | Google |
 | 2026-10-27 | [iShares Core S&P/ASX 200 ETF（IOZ）研究：費用最低一級、追蹤精準，但配息不穩、估值偏高，而且現在定存利率比它的殖利率高](reports/IOZ/IOZ-research-20261027.md) | IOZ |
+| 2026-10-21 | [0050 投資論文漂移檢測（10/6 → 10/21）：論文沒有漂移，價格漂移了](reports/0050/0050-thesis-drift-20261021.md) | 0050 |
 
 <!-- REPORTS-INDEX:END -->
 
