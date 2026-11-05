@@ -16,7 +16,7 @@
 
 <!-- REPORTS-BANNER:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2400 份報告 · 119 家公司 · 24 個專題，按公司與專題分組，更新至 2026-11-04。
+> 📊 **日更內容是研究報告，全部在 [研究報告索引](reports/README.md)。** 2401 份報告 · 119 家公司 · 24 個專題，按公司與專題分組，更新至 2026-11-04。
 
 <!-- REPORTS-BANNER:END -->
 
@@ -657,14 +657,14 @@ REM 可选：安装 Codex slash prompts
 
 <!-- REPORTS-INDEX:START 由 tools/reports_index.py 自動更新，勿手改 -->
 
-**📊 [全部研究索引 →](reports/README.md)** ｜ 2400 份報告 · 119 家公司 · 24 個專題 · 更新至 2026-11-04
+**📊 [全部研究索引 →](reports/README.md)** ｜ 2401 份報告 · 119 家公司 · 24 個專題 · 更新至 2026-11-04
 
 最近更新：
 
 | 日期 | 報告 | 歸屬 |
 |------|------|------|
-| 2026-11-04 | [AMD 投資研究（2026-11-04，Q3 財報後）：營收與指引雙超預期，股價跌進合理區間；三年計稀釋約 5.1%、十年 −2.0%，仍排在 QQQ、GOOG 之後，結論：觀望（持倉者續抱不加碼）](reports/AMD/AMD-research-20261104.md) | AMD |
-| 2026-11-02 | [AMD 新聞脈搏與異動歸因報告：13 天 −16.64%，約八成五是半導體板塊 beta，自身沒有利空；股價跌進合理區間，驗證點在 11/3 財報](reports/AMD/AMD-news-20261102.md) | AMD |
+| 2026-11-04 | [AMD 研究報告（2026-11-04）：Q3 證實 Helios 出貨、Q4 指引 $170 億；收盤 $483.90 回到三年區間內，十年基準 IRR 仍是 -1.94%](reports/AMD/AMD-research-20261104.md) | AMD |
+| 2026-11-04 | [AMD 投資研究（2026-11-04，Q3 財報後）：營收與指引雙超預期，股價跌進合理區間；三年計稀釋約 5.1%、十年 −2.0%，仍排在 QQQ、GOOG 之後，結論：觀望（持倉者續抱不加碼）](reports/AMD/AMD-research-20261104-2.md) | AMD |
 | 2026-10-30 | [英特爾（NASDAQ: INTC）投資研究報告](reports/Intel/Intel-research-20261030.md) | Intel |
 | 2026-10-30 | [Alphabet（GOOG）投資研究（2026-10-30）：財報後單日 −12.3%，剔除投資收益後 PE 25.8 倍；三年預期年化約 5.1%、十年 +0.3%，排在 QQQ 之後、AMD 與 TSLA 之前，結論：觀望](reports/Google/Google-research-同一把尺-20261030.md) | Google |
 | 2026-10-30 | [Alphabet（GOOGL）投資研究報告](reports/Google/Google-research-20261030.md) | Google |
